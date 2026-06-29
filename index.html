@@ -45,7 +45,17 @@
       z-index: 100;
     }
     .has-dropdown:hover .dropdown { display: block; }
-    .dropdown li a { padding: 12px 24px; }
+    .dropdown li a {
+      padding: 12px 24px;
+      font-family: Arial, sans-serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.03em;
+      color: #fff;
+    }
+    .dropdown li a:hover,
+    .dropdown li a.active {
+      background-color: #2c4430;
+    }
     main {
       max-width: 700px;
       margin: 60px auto;
