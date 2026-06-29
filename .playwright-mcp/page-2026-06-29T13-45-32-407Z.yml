@@ -1,0 +1,27 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link "Home" [ref=e5] [cursor=pointer]:
+          - /url: index.html
+      - listitem [ref=e6]:
+        - link "Favourite Routes" [ref=e7] [cursor=pointer]:
+          - /url: routes.html
+      - listitem [ref=e8]:
+        - link "My Most Beautiful Route" [ref=e9] [cursor=pointer]:
+          - /url: most-beautiful.html
+      - listitem [ref=e10]:
+        - link "Bright Angel Trail" [ref=e11] [cursor=pointer]:
+          - /url: route-bright-angel-trail.html
+      - listitem [ref=e12]:
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: about.html
+      - listitem [ref=e14]:
+        - link "Contact" [ref=e15] [cursor=pointer]:
+          - /url: contact.html
+  - main [ref=e16]:
+    - heading "My mountain-hiking hobby" [level=1] [ref=e17]
+    - paragraph [ref=e18]: Lace up your boots. Take a deep breath. Feel that? That is the mountain calling.
+    - paragraph [ref=e19]: I have been answering that call for years. There is nothing like it. The first steps on a trail, the air turning crisp as you climb, the world below shrinking to something small and manageable. Up here, everything makes sense.
+    - paragraph [ref=e20]: Every trail teaches you something. Your legs grow stronger. Your mind grows quieter. And when you crest that final ridge and the view opens up — wide, wild, and endless — you remember exactly why you came.
+    - paragraph [ref=e21]: Come along. I will show you the routes that matter most to me.

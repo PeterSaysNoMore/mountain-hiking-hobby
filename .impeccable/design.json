@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-29T00:00:00Z",
+  "title": "Design System: My Mountain-Hiking Hobby Website",
+  "extensions": {
+    "colorMeta": {
+      "trail-pine": {
+        "role": "primary",
+        "displayName": "Trail Pine",
+        "canonical": "#3a5a40",
+        "tonalRamp": ["#0d1f12", "#172e1d", "#253d28", "#3a5a40", "#527857", "#7a9e7d", "#a8c5ab", "#d6e8d7"]
+      },
+      "forest-depth": {
+        "role": "primary-dark",
+        "displayName": "Forest Depth",
+        "canonical": "#2c4430",
+        "tonalRamp": ["#0a1a0e", "#142318", "#1f3223", "#2c4430", "#415e45", "#65816a", "#95ad98", "#ccdacd"]
+      },
+      "canyon-amber": {
+        "role": "accent",
+        "displayName": "Canyon Amber",
+        "canonical": "#e07b00",
+        "tonalRamp": ["#2a1600", "#4a2700", "#774000", "#e07b00", "#e89630", "#f0b468", "#f7d0a0", "#fcecd8"]
+      },
+      "mountain-mist": {
+        "role": "background",
+        "displayName": "Mountain Mist",
+        "canonical": "#f5f5f0",
+        "tonalRamp": ["#c8c8c0", "#d3d3cc", "#dcdcd6", "#e8e8e3", "#f0f0eb", "#f5f5f0", "#fafafb", "#ffffff"]
+      },
+      "deep-ink": {
+        "role": "ink",
+        "displayName": "Deep Ink",
+        "canonical": "#2c2c2c",
+        "tonalRamp": ["#0a0a0a", "#151515", "#202020", "#2c2c2c", "#444444", "#666666", "#999999", "#cccccc"]
+      },
+      "trail-gray": {
+        "role": "ink-secondary",
+        "displayName": "Trail Gray",
+        "canonical": "#444444",
+        "tonalRamp": ["#111111", "#1e1e1e", "#2c2c2c", "#444444", "#5e5e5e", "#787878", "#9e9e9e", "#c8c8c8"]
+      },
+      "stone-mist": {
+        "role": "muted",
+        "displayName": "Stone Mist",
+        "canonical": "#888888",
+        "tonalRamp": ["#1c1c1c", "#2e2e2e", "#474747", "#666666", "#888888", "#aaaaaa", "#cccccc", "#eeeeee"]
+      },
+      "pale-ridge": {
+        "role": "border",
+        "displayName": "Pale Ridge",
+        "canonical": "#d0cfc8",
+        "tonalRamp": ["#8c8b86", "#a4a39d", "#b6b5af", "#c4c3bc", "#d0cfc8", "#dddcd5", "#eaeae4", "#f5f5f0"]
+      },
+      "summit-white": {
+        "role": "surface",
+        "displayName": "Summit White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#cccccc", "#d9d9d9", "#e5e5e5", "#eeeeee", "#f4f4f4", "#f9f9f9", "#fcfcfc", "#ffffff"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Page titles (H1). One per page. Trail Pine with border-bottom anchor." },
+      "body": { "displayName": "Body", "purpose": "All editorial prose — route descriptions, intros, trail stories. Generous line-height." },
+      "label": { "displayName": "Label", "purpose": "Navigation, metadata, badge text. Arial only — never for editorial content." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "nav-transition", "value": "background 0.2s ease", "purpose": "Navigation link hover/active state — the only animation in the system." }
+    ],
+    "breakpoints": [
+      { "name": "narrow", "value": "640px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Full-width nav rail in Trail Pine. Links in Arial. Hover/active darker.",
+      "html": "<nav class=\"ds-nav\"><ul><li><a href=\"#\" class=\"ds-nav-link\">Home</a></li><li><a href=\"#\" class=\"ds-nav-link ds-nav-link--active\">Favourite Routes</a></li><li><a href=\"#\" class=\"ds-nav-link\">Most Beautiful</a></li></ul></nav>",
+      "css": ".ds-nav { background-color: #3a5a40; padding: 0 40px; } .ds-nav ul { list-style: none; display: flex; gap: 0; margin: 0; padding: 0; } .ds-nav-link { display: block; padding: 16px 24px; color: #ffffff; text-decoration: none; font-family: Arial, sans-serif; font-size: 0.95rem; letter-spacing: 0.03em; transition: background 0.2s ease; } .ds-nav-link:hover, .ds-nav-link--active { background-color: #2c4430; }"
+    },
+    {
+      "name": "Page Heading",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "H1 with Trail Pine color and 2px border-bottom anchor. One per page.",
+      "html": "<h1 class=\"ds-page-heading\">Bright Angel Trail</h1>",
+      "css": ".ds-page-heading { font-family: Georgia, serif; font-size: 2.2rem; font-weight: 400; color: #3a5a40; border-bottom: 2px solid #3a5a40; padding-bottom: 10px; margin-bottom: 24px; line-height: 1.3; text-wrap: balance; }"
+    },
+    {
+      "name": "Difficulty Badge",
+      "kind": "chip",
+      "refersTo": "badge-difficulty",
+      "description": "Canyon Amber pill. One per page. Marks trail difficulty above the first paragraph.",
+      "html": "<span class=\"ds-badge\">Moderate</span>",
+      "css": ".ds-badge { display: inline-block; font-family: Arial, sans-serif; font-size: 0.8rem; font-weight: bold; letter-spacing: 0.05em; text-transform: uppercase; padding: 4px 12px; border-radius: 20px; background-color: #e07b00; color: #ffffff; }"
+    },
+    {
+      "name": "Route Entry",
+      "kind": "card",
+      "refersTo": null,
+      "description": "A single trail entry. No card border or background — type hierarchy and spacing do the work.",
+      "html": "<div class=\"ds-route\"><h2 class=\"ds-route-title\">El Capitan — Valley Floor Trail</h2><div class=\"ds-route-meta\">Yosemite National Park, California, USA</div><p class=\"ds-route-body\">Look up. Go on — really look up. El Capitan rises more than 900 metres straight out of the Yosemite Valley floor.</p></div>",
+      "css": ".ds-route { margin-bottom: 48px; } .ds-route-title { font-family: Georgia, serif; font-size: 1.4rem; font-weight: 400; color: #3a5a40; margin-bottom: 4px; } .ds-route-meta { font-family: Arial, sans-serif; font-size: 0.85rem; color: #888888; margin-bottom: 14px; } .ds-route-body { font-family: Georgia, serif; font-size: 1.05rem; line-height: 1.8; color: #444444; margin-bottom: 12px; }"
+    },
+    {
+      "name": "Section Divider",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "1px Pale Ridge rule between route entries. A breath, not a border.",
+      "html": "<hr class=\"ds-divider\">",
+      "css": ".ds-divider { border: none; border-top: 1px solid #d0cfc8; margin-bottom: 48px; }"
+    },
+    {
+      "name": "Inline Read More Link",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Trail Pine sans link used within route summaries for 'Read more →'. No underline at rest.",
+      "html": "<a href=\"#\" class=\"ds-readmore\">Read more →</a>",
+      "css": ".ds-readmore { font-family: Arial, sans-serif; font-size: 0.9rem; font-weight: bold; color: #3a5a40; text-decoration: none; } .ds-readmore:hover { text-decoration: underline; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Trail Companion",
+    "overview": "This system feels like getting trail notes from a trusted friend — personal, direct, no pretense. Not a brand, not a publication, not an outdoor gear catalog. Someone who knows these trails and wants to take you along. The design steps back so the writing can do its job: put the reader on the mountain.\n\nTypography carries almost all the weight here. Georgia's serifs do the editorial work; Arial handles the practical layer. Color is restrained: one deep forest green anchors the page, one amber accent marks what's special, neutral backgrounds stay quiet. Nothing competes with the voice on the page.\n\nThis system explicitly rejects corporate outdoors brands, minimalist-cool aesthetics, outdoorsy-rugged clichés, and travel-blog generic patterns.",
+    "keyCharacteristics": [
+      "Content-first: the text is the design",
+      "Single saturated accent (trail pine) in the navigation; everything else is neutral",
+      "Flat surfaces, no elevation — separation through spacing and type, not shadow",
+      "Two-font pairing on a contrast axis: editorial serif body + utilitarian sans UI",
+      "Warm off-white background — functional, not decorative"
+    ],
+    "rules": [
+      { "name": "The One Amber Rule", "body": "Canyon Amber appears on one element per page: the difficulty badge. If you're reaching for it a second time, reach for Trail Pine instead.", "section": "colors" },
+      { "name": "The No-Shadow Rule", "body": "Surfaces are flat. Separation is achieved through spacing, type scale, and color — never box-shadow or drop-shadow.", "section": "colors" },
+      { "name": "The Two-Font Rule", "body": "Georgia handles editorial content; Arial handles the utility layer. No third face enters. No swapping roles.", "section": "typography" },
+      { "name": "The Serif-First Rule", "body": "When in doubt, reach for Georgia. Arial earns its place only when information is functional (navigation, metadata, a badge label) — never for decorative use.", "section": "typography" },
+      { "name": "The Flat Commitment", "body": "If you feel the urge to add a box-shadow, add more vertical spacing instead. The page has rhythm; it doesn't need altitude.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use Georgia for all editorial prose — route descriptions, intros, body copy of any kind.",
+      "Do let the writing breathe: 1.8 line-height on body, generous vertical spacing between sections.",
+      "Do use Trail Pine (#3a5a40) as the single brand color for headings, nav, and links.",
+      "Do reserve Canyon Amber (#e07b00) for exactly one element per page.",
+      "Do keep surfaces flat — no shadows, no blur, no elevation tricks.",
+      "Do maintain paragraph text at #444444 minimum against the off-white background (contrast ≥4.5:1).",
+      "Do use Arial only for UI-layer text: navigation, metadata, labels, badges."
+    ],
+    "donts": [
+      "Don't make it look like a corporate outdoors brand (REI, North Face). No product-marketing energy, no polished campaign photography layout.",
+      "Don't go minimalist-cool: cold white backgrounds, clinical type, excessive negative space without warmth.",
+      "Don't fall into the outdoorsy-rugged cliché: no dark olive, no distressed textures, no wood-grain backgrounds, no faux-vintage treatments.",
+      "Don't use travel-blog generic patterns: no stock-photo hero sections, no 'Top 10' bullet lists, no identical card grids.",
+      "Don't add box-shadows. The design is flat. Add spacing instead.",
+      "Don't introduce a third typeface. Two fonts, two roles — that's the system.",
+      "Don't use Canyon Amber (#e07b00) for body text, headings, or decorative color. Its meaning comes from rarity.",
+      "Don't use Stone Mist (#888888) for any text below 0.85rem — contrast fails at small sizes.",
+      "Don't use side-stripe border-left or border-right accents on route entries or callouts. Use spacing and type instead."
+    ]
+  }
+}

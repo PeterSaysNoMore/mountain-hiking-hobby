@@ -1,0 +1,1084 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - paragraph [ref=e3]: Ga direct naar
+    - list [ref=e4]:
+      - listitem [ref=e5]:
+        - link "Ga naar hoofdinhoud" [ref=e6] [cursor=pointer]:
+          - /url: " #contentArea "
+      - listitem [ref=e7]:
+        - link "Ga naar de zoekbalk" [ref=e8] [cursor=pointer]:
+          - /url: "#search-bar-input"
+  - navigation [ref=e11]:
+    - generic [ref=e12]:
+      - 'link "Tweakers: tech-community, nieuws, reviews en de Pricewatch" [ref=e14] [cursor=pointer]':
+        - /url: https://tweakers.net/
+        - img [ref=e15]:
+          - img [ref=e16]
+      - heading "Tweakers" [level=1]
+      - menubar "Website menu" [ref=e18]:
+        - menuitem "Nieuws" [ref=e19] [cursor=pointer]
+        - menuitem "Reviews" [ref=e20] [cursor=pointer]
+        - menuitem "Best Buy Guides" [ref=e21] [cursor=pointer]
+        - menuitem "Pricewatch" [ref=e22] [cursor=pointer]
+        - menuitem "Vraag & Aanbod" [ref=e23] [cursor=pointer]
+        - menuitem "Forum" [ref=e24] [cursor=pointer]
+        - menuitem "Deals" [ref=e25] [cursor=pointer]
+        - menuitem "Meer" [ref=e26] [cursor=pointer]
+      - menubar "Gebruikers menu" [ref=e27]:
+        - menuitem "Zoeken" [ref=e28] [cursor=pointer]:
+          - img [ref=e29]:
+            - img [ref=e30]
+        - menuitem "Inloggen" [ref=e32] [cursor=pointer]
+        - menuitem "Vergelijken" [ref=e33] [cursor=pointer]:
+          - img [ref=e34]:
+            - img [ref=e35]
+        - menuitem "Weergave-opties" [ref=e37] [cursor=pointer]:
+          - img [ref=e38]:
+            - img [ref=e39]
+          - 'status "Landinstelling: NL"':
+            - img
+  - tabpanel [ref=e41]
+  - tablist "Sidebar navigatie" [ref=e43]:
+    - tab "Tracker" [ref=e44] [cursor=pointer]:
+      - img [ref=e46]
+      - text: Tracker
+    - tab "Actieve topics" [ref=e48] [cursor=pointer]:
+      - img [ref=e50]
+      - text: Actieve topics
+  - main [ref=e53]:
+    - generic [ref=e55]:
+      - navigation "Category Navigation" [ref=e56]:
+        - heading "Vergelijk producten en prijzen" [level=2] [ref=e57]:
+          - link "Vergelijk producten en prijzen" [ref=e58] [cursor=pointer]:
+            - /url: https://tweakers.net/pricewatch/
+        - menu "Category Navigation" [ref=e59]:
+          - menuitem "Smartphones" [ref=e60] [cursor=pointer]:
+            - generic: Smartphones
+          - menuitem "Laptops" [ref=e61] [cursor=pointer]:
+            - generic: Laptops
+          - menuitem "Tablets" [ref=e62] [cursor=pointer]:
+            - generic: Tablets
+          - menuitem "Hoofdtelefoon" [ref=e63] [cursor=pointer]:
+            - generic: Hoofdtelefoon
+          - menuitem "Televisies" [ref=e64] [cursor=pointer]:
+            - generic: Televisies
+          - menuitem "Gaming" [ref=e65] [cursor=pointer]:
+            - generic: Gaming
+          - menuitem "Monitors" [ref=e66] [cursor=pointer]:
+            - generic: Monitors
+          - menuitem "Opslag" [ref=e67] [cursor=pointer]:
+            - generic: Opslag
+          - menuitem "Componenten" [ref=e68] [cursor=pointer]:
+            - generic: Componenten
+          - menuitem "meer" [ref=e69] [cursor=pointer]:
+            - generic:
+              - generic:
+                - img
+            - generic: meer
+      - generic [ref=e70]:
+        - article [ref=e71]:
+          - figure "vandaag Onverkrijgbare Controller is steengoed Steam Controller Review Geen prijs bekend 1 productreview" [ref=e72]:
+            - link [ref=e73] [cursor=pointer]:
+              - /url: https://tweakers.net/reviews/14884/steam-controller-onverkrijgbare-controller-is-steengoed.html
+              - figure:
+                - img "Onverkrijgbare Controller is steengoed"
+            - generic [ref=e74]:
+              - link "vandaag Onverkrijgbare Controller is steengoed Steam Controller Review" [ref=e75] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14884/steam-controller-onverkrijgbare-controller-is-steengoed.html
+                - paragraph [ref=e76]: vandaag
+                - generic [ref=e77]:
+                  - heading "Onverkrijgbare Controller is steengoed" [level=2] [ref=e78]
+                  - paragraph [ref=e79]: Steam Controller Review
+              - generic [ref=e80]:
+                - link "Geen prijs bekend" [ref=e81] [cursor=pointer]:
+                  - /url: https://tweakers.net/pricewatch/2289804/valve-steam-controller-zwart.html
+                - link "1 productreview" [ref=e82] [cursor=pointer]:
+                  - /url: https://tweakers.net/pricewatch/2289804/valve-steam-controller-zwart.html#slide-in:productreviews
+            - link "132 reacties" [ref=e83] [cursor=pointer]:
+              - /url: https://tweakers.net/reviews/14884/steam-controller-onverkrijgbare-controller-is-steengoed.html#reacties
+              - img:
+                - generic: "132"
+        - generic [ref=e84]:
+          - article [ref=e85]:
+            - figure "gisteren MG zet kleine stap richting felbegeerde solidstateaccu" [ref=e86]:
+              - link [ref=e87] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14546/mg-zet-kleine-stap-richting-felbegeerde-solidstateaccu.html
+                - figure
+              - link "gisteren MG zet kleine stap richting felbegeerde solidstateaccu" [ref=e89] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14546/mg-zet-kleine-stap-richting-felbegeerde-solidstateaccu.html
+                - paragraph [ref=e90]: gisteren
+                - heading "MG zet kleine stap richting felbegeerde solidstateaccu" [level=2] [ref=e92]
+              - link "113 reacties" [ref=e94] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14546/mg-zet-kleine-stap-richting-felbegeerde-solidstateaccu.html#reacties
+                - img:
+                  - generic: "113"
+          - article [ref=e95]:
+            - figure "2 dagen geleden Een oled-tv om in te lijsten Samsung S99H-oled-tv Review Vanaf € 2.898,-" [ref=e96]:
+              - link [ref=e97] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14908/samsung-s99h-oled-tv-review-een-oled-tv-om-in-te-lijsten.html
+                - figure:
+                  - img "Een oled-tv om in te lijsten"
+              - generic [ref=e98]:
+                - link "2 dagen geleden Een oled-tv om in te lijsten Samsung S99H-oled-tv Review" [ref=e99] [cursor=pointer]:
+                  - /url: https://tweakers.net/reviews/14908/samsung-s99h-oled-tv-review-een-oled-tv-om-in-te-lijsten.html
+                  - paragraph [ref=e100]: 2 dagen geleden
+                  - generic [ref=e101]:
+                    - heading "Een oled-tv om in te lijsten" [level=2] [ref=e102]
+                    - paragraph [ref=e103]: Samsung S99H-oled-tv Review
+                - link "Vanaf € 2.898,-" [ref=e105] [cursor=pointer]:
+                  - /url: https://tweakers.net/televisies/samsung/oled-s99h_p1862018/vergelijken/
+              - link "85 reacties" [ref=e106] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14908/samsung-s99h-oled-tv-review-een-oled-tv-om-in-te-lijsten.html#reacties
+                - img:
+                  - generic: "85"
+          - article [ref=e107]:
+            - figure "3 dagen geleden Waarom 1039 euro voor de Steam Machine niet zo gek is" [ref=e108]:
+              - link [ref=e109] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14930/waarom-1039-euro-voor-de-steam-machine-niet-zo-gek-is.html
+                - figure
+              - link "3 dagen geleden Waarom 1039 euro voor de Steam Machine niet zo gek is" [ref=e111] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14930/waarom-1039-euro-voor-de-steam-machine-niet-zo-gek-is.html
+                - paragraph [ref=e112]: 3 dagen geleden
+                - heading "Waarom 1039 euro voor de Steam Machine niet zo gek is" [level=2] [ref=e114]
+              - link "220 reacties" [ref=e116] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14930/waarom-1039-euro-voor-de-steam-machine-niet-zo-gek-is.html#reacties
+                - img:
+                  - generic: "220"
+          - article [ref=e117]:
+            - figure "3 dagen geleden Beste allround laptops tot 1000 euro Laptop Best Buy Guide" [ref=e118]:
+              - link [ref=e119] [cursor=pointer]:
+                - /url: https://tweakers.net/best-buy-guide/laptops/beste-allround-laptop
+                - figure:
+                  - img "Beste allround laptops tot 1000 euro"
+              - link "3 dagen geleden Beste allround laptops tot 1000 euro Laptop Best Buy Guide" [ref=e121] [cursor=pointer]:
+                - /url: https://tweakers.net/best-buy-guide/laptops/beste-allround-laptop
+                - paragraph [ref=e122]: 3 dagen geleden
+                - generic [ref=e123]:
+                  - heading "Beste allround laptops tot 1000 euro" [level=2] [ref=e124]
+                  - paragraph [ref=e125]: Laptop Best Buy Guide
+              - link "49 reacties" [ref=e127] [cursor=pointer]:
+                - /url: https://tweakers.net/best-buy-guide/laptops/beste-allround-laptop/2/beste-allround-laptops-tot-1000-euro-beste-allroundlaptops-testresultaten#reacties
+                - img:
+                  - generic: "49"
+          - article [ref=e128]:
+            - figure "25 jun 2026 Bubbels verbloemen magere upgrade Android 17 Preview" [ref=e129]:
+              - link [ref=e130] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14912/android-17-bubbels-verbloemen-magere-upgrade.html
+                - figure:
+                  - img "Bubbels verbloemen magere upgrade"
+              - link "25 jun 2026 Bubbels verbloemen magere upgrade Android 17 Preview" [ref=e132] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14912/android-17-bubbels-verbloemen-magere-upgrade.html
+                - paragraph [ref=e133]: 25 jun 2026
+                - generic [ref=e134]:
+                  - heading "Bubbels verbloemen magere upgrade" [level=2] [ref=e135]
+                  - paragraph [ref=e136]: Android 17 Preview
+              - link "81 reacties" [ref=e138] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14912/android-17-bubbels-verbloemen-magere-upgrade.html#reacties
+                - img:
+                  - generic: "81"
+          - article [ref=e139]:
+            - 'figure "25 jun 2026 De grootste ''groene'' beurs ter wereld Redactieblog: een dagje op Intersolar" [ref=e140]':
+              - link [ref=e141] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14926/redactieblog-een-dagje-intersolar-de-grootste-groene-beurs-ter-wereld.html
+                - figure:
+                  - img "De grootste 'groene' beurs ter wereld"
+              - 'link "25 jun 2026 De grootste ''groene'' beurs ter wereld Redactieblog: een dagje op Intersolar" [ref=e143] [cursor=pointer]':
+                - /url: https://tweakers.net/reviews/14926/redactieblog-een-dagje-intersolar-de-grootste-groene-beurs-ter-wereld.html
+                - paragraph [ref=e144]: 25 jun 2026
+                - generic [ref=e145]:
+                  - heading "De grootste 'groene' beurs ter wereld" [level=2] [ref=e146]
+                  - paragraph [ref=e147]: "Redactieblog: een dagje op Intersolar"
+              - link "25 reacties" [ref=e149] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14926/redactieblog-een-dagje-intersolar-de-grootste-groene-beurs-ter-wereld.html#reacties
+                - img:
+                  - generic: "25"
+          - article [ref=e150]:
+            - figure "24 jun 2026 100.000 abonnees! Reageren op 15 jaar techvideo's" [ref=e151]:
+              - link [ref=e152] [cursor=pointer]:
+                - /url: https://tweakers.net/video/20438/100000-abonnees-reageren-op-15-jaar-techvideos.html
+                - figure:
+                  - img "100.000 abonnees!"
+                  - generic:
+                    - generic:
+                      - img
+              - link "24 jun 2026 100.000 abonnees! Reageren op 15 jaar techvideo's" [ref=e154] [cursor=pointer]:
+                - /url: https://tweakers.net/video/20438/100000-abonnees-reageren-op-15-jaar-techvideos.html
+                - paragraph [ref=e155]: 24 jun 2026
+                - generic [ref=e156]:
+                  - heading "100.000 abonnees!" [level=2] [ref=e157]
+                  - paragraph [ref=e158]: Reageren op 15 jaar techvideo's
+              - link "31 reacties" [ref=e160] [cursor=pointer]:
+                - /url: https://tweakers.net/video/20438/100000-abonnees-reageren-op-15-jaar-techvideos.html#reacties
+                - img:
+                  - generic: "31"
+          - article [ref=e161]:
+            - 'figure "24 jun 2026 Auteursrecht remt AI-muziek: ontwikkelingen staan zo goed als stil" [ref=e162]':
+              - link [ref=e163] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14870/auteursrecht-remt-ai-muziek-ontwikkelingen-staan-zo-goed-als-stil.html
+                - figure
+              - 'link "24 jun 2026 Auteursrecht remt AI-muziek: ontwikkelingen staan zo goed als stil" [ref=e165] [cursor=pointer]':
+                - /url: https://tweakers.net/reviews/14870/auteursrecht-remt-ai-muziek-ontwikkelingen-staan-zo-goed-als-stil.html
+                - paragraph [ref=e166]: 24 jun 2026
+                - 'heading "Auteursrecht remt AI-muziek: ontwikkelingen staan zo goed als stil" [level=2] [ref=e168]'
+              - link "133 reacties" [ref=e170] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14870/auteursrecht-remt-ai-muziek-ontwikkelingen-staan-zo-goed-als-stil.html#reacties
+                - img:
+                  - generic: "133"
+        - generic [ref=e171]:
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - heading "Laatste nieuws" [level=2] [ref=e175]:
+                - link "Laatste nieuws" [ref=e176] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/list/20260629
+              - link "Tip de redactie" [ref=e177] [cursor=pointer]:
+                - /url: https://tweakers.net/submit/
+                - img [ref=e178]
+                - text: Tip de redactie
+            - article [ref=e181]:
+              - generic "Nieuws | Websites en community's" [ref=e183]:
+                - img [ref=e184]
+              - time [ref=e186]: 14:29
+              - link "TikTok haalt deepfake van NU.nl-redacteur pas na twee dagen offline" [ref=e187] [cursor=pointer]:
+                - /url: https://tweakers.net/nieuws/249598/tiktok-haalt-deepfake-van-nu-punt-nl-redacteur-pas-na-twee-dagen-offline.html
+              - link "57 reacties" [ref=e189] [cursor=pointer]:
+                - /url: https://tweakers.net/nieuws/249598/tiktok-haalt-deepfake-van-nu-punt-nl-redacteur-pas-na-twee-dagen-offline.html#reacties
+                - img:
+                  - generic: "57"
+            - article [ref=e191]:
+              - generic "Nieuws | Politiek en recht" [ref=e193]:
+                - img [ref=e194]
+              - time [ref=e196]: 14:03
+              - link "Defensie wil over vijf jaar meeste militaire taken onbemenst uitvoeren" [ref=e197] [cursor=pointer]:
+                - /url: https://tweakers.net/nieuws/249596/defensie-wil-over-vijf-jaar-meeste-militaire-taken-onbemenst-uitvoeren.html
+              - link "111 reacties" [ref=e199] [cursor=pointer]:
+                - /url: https://tweakers.net/nieuws/249596/defensie-wil-over-vijf-jaar-meeste-militaire-taken-onbemenst-uitvoeren.html#reacties
+                - img:
+                  - generic: "111"
+            - article [ref=e201]:
+              - generic "Download | Games" [ref=e203]:
+                - img [ref=e204]
+              - time [ref=e206]: 13:58
+              - generic [ref=e207]:
+                - link "OpenTTD 16.0 bèta 1" [ref=e208] [cursor=pointer]:
+                  - /url: https://tweakers.net/downloads/77448/openttd-160-beta-1.html
+                - text: en
+                - link "een andere download" [ref=e209] [cursor=pointer]:
+                  - /url: https://tweakers.net/downloads/
+              - link "2 reacties" [ref=e211] [cursor=pointer]:
+                - /url: https://tweakers.net/downloads/77448/openttd-160-beta-1.html#reacties
+                - img:
+                  - generic: "2"
+            - article [ref=e213]:
+              - generic ".Community | Websites en community's" [ref=e215]:
+                - img [ref=e216]
+              - time [ref=e218]: 13:37
+              - link ".Community - In mei ontvingen we net iets minder bruikbare tips dan de maand ervoor" [ref=e219] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14938/in-mei-ontvingen-we-net-iets-minder-bruikbare-tips-dan-de-maand-ervoor.html
+              - link "14 reacties" [ref=e221] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/14938/in-mei-ontvingen-we-net-iets-minder-bruikbare-tips-dan-de-maand-ervoor.html#reacties
+                - img:
+                  - generic: "14"
+            - article [ref=e223]:
+              - generic ".Adv | Zonnepanelen en toebehoren" [ref=e225]:
+                - img [ref=e226]
+              - time
+              - link ".Adv - Op zoek naar een thuisbatterij? Zo combineer je prijs met performance" [ref=e228] [cursor=pointer]:
+                - /url: https://tweakers.net/plan/4702/op-zoek-naar-een-thuisbatterij-zo-combineer-je-prijs-met-performance.html
+              - link "5 reacties" [ref=e230] [cursor=pointer]:
+                - /url: https://tweakers.net/plan/4702/op-zoek-naar-een-thuisbatterij-zo-combineer-je-prijs-met-performance.html#reacties
+                - img:
+                  - generic: "5"
+            - generic:
+              - generic: Advertentie
+          - generic [ref=e231]:
+            - generic [ref=e232]:
+              - article [ref=e234]:
+                - generic ".Adv | Mobiele abonnementen" [ref=e236]:
+                  - img [ref=e237]
+                - time
+                - 'link ".Adv - Met een data-only e-sim in drie minuten overal online: SimWallet van Odido" [ref=e239] [cursor=pointer]':
+                  - /url: https://tweakers.net/plan/4708/met-een-data-only-e-sim-in-drie-minuten-overal-online-simwallet-van-odido.html
+                - link "14 reacties" [ref=e241] [cursor=pointer]:
+                  - /url: https://tweakers.net/plan/4708/met-een-data-only-e-sim-in-drie-minuten-overal-online-simwallet-van-odido.html#reacties
+                  - img:
+                    - generic: "14"
+              - article [ref=e243]:
+                - generic "Nieuws | Smartphones" [ref=e245]:
+                  - img [ref=e246]
+                - time [ref=e248]: 12:42
+                - 'link "Bloomberg: Apple kondigt vouwbare iPhone waarschijnlijk op 8 september aan" [ref=e249] [cursor=pointer]':
+                  - /url: https://tweakers.net/nieuws/249592/bloomberg-apple-kondigt-vouwbare-iphone-waarschijnlijk-op-8-september-aan.html
+                - link "38 reacties" [ref=e251] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249592/bloomberg-apple-kondigt-vouwbare-iphone-waarschijnlijk-op-8-september-aan.html#reacties
+                  - img:
+                    - generic: "38"
+              - article [ref=e253]:
+                - generic "Nieuws | Internet" [ref=e255]:
+                  - img [ref=e256]
+                - time [ref=e258]: 12:31
+                - link "Netflix eist uniek e-mailadres per profiel van VS-gebruikers" [ref=e259] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249588/netflix-eist-uniek-e-mailadres-per-profiel-van-vs-gebruikers.html
+                - link "120 reacties" [ref=e261] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249588/netflix-eist-uniek-e-mailadres-per-profiel-van-vs-gebruikers.html#reacties
+                  - img:
+                    - generic: "120"
+              - article [ref=e263]:
+                - generic "Nieuws | Internet" [ref=e265]:
+                  - img [ref=e266]
+                - time [ref=e268]: 12:28
+                - link "YouTube schrapt dislikeknop bij Shorts omdat die te dubbelzinnig is" [ref=e269] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249590/youtube-schrapt-dislikeknop-bij-shorts-omdat-die-te-dubbelzinnig-is.html
+                - link "60 reacties" [ref=e271] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249590/youtube-schrapt-dislikeknop-bij-shorts-omdat-die-te-dubbelzinnig-is.html#reacties
+                  - img:
+                    - generic: "60"
+              - article [ref=e273]:
+                - generic "Nieuws | Consoles" [ref=e275]:
+                  - img [ref=e276]
+                - time [ref=e278]: 12:02
+                - 'link "Gerucht: PlayStation 6 kost Sony bijna 1000 dollar aan componenten" [ref=e279] [cursor=pointer]':
+                  - /url: https://tweakers.net/nieuws/249584/gerucht-playstation-6-kost-sony-bijna-1000-dollar-aan-componenten.html
+                - link "147 reacties" [ref=e281] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249584/gerucht-playstation-6-kost-sony-bijna-1000-dollar-aan-componenten.html#reacties
+                  - img:
+                    - generic: "147"
+            - generic [ref=e282]:
+              - article [ref=e284]:
+                - generic "Nieuws | Politiek en recht" [ref=e286]:
+                  - img [ref=e287]
+                - time [ref=e289]: 11:27
+                - link "'Laat AI-aanbieders contentheffing betalen per gegenereerde output'" [ref=e290] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249586/laat-ai-aanbieders-contentheffing-betalen-per-gegenereerde-output.html
+                - link "86 reacties" [ref=e292] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249586/laat-ai-aanbieders-contentheffing-betalen-per-gegenereerde-output.html#reacties
+                  - img:
+                    - generic: "86"
+              - article [ref=e294]:
+                - generic "Nieuws | Overige software" [ref=e296]:
+                  - img [ref=e297]
+                - time [ref=e299]: 10:29
+                - 'link "FT: Google knijpt Gemini-gebruik van Meta af" [ref=e300] [cursor=pointer]':
+                  - /url: https://tweakers.net/nieuws/249580/ft-google-knijpt-gemini-gebruik-van-meta-af.html
+                - link "18 reacties" [ref=e302] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249580/ft-google-knijpt-gemini-gebruik-van-meta-af.html#reacties
+                  - img:
+                    - generic: "18"
+              - article [ref=e304]:
+                - generic "Nieuws | Marktontwikkelingen" [ref=e306]:
+                  - img [ref=e307]
+                - time [ref=e309]: 09:32
+                - link "Simyo beperkt prijsstijgingen tot 5 procent en 3 euro, behalve vanwege inflatie" [ref=e310] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249578/simyo-beperkt-prijsstijgingen-tot-5-procent-en-3-euro-behalve-vanwege-inflatie.html
+                - link "97 reacties" [ref=e312] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249578/simyo-beperkt-prijsstijgingen-tot-5-procent-en-3-euro-behalve-vanwege-inflatie.html#reacties
+                  - img:
+                    - generic: "97"
+              - article [ref=e314]:
+                - generic "Review | Gamecontrollers" [ref=e316]:
+                  - img [ref=e317]
+                - time [ref=e319]: 06:00
+                - link "Review - Steam Controller - Onverkrijgbare Controller is steengoed" [ref=e320] [cursor=pointer]:
+                  - /url: https://tweakers.net/reviews/14884/steam-controller-onverkrijgbare-controller-is-steengoed.html
+                - link "132 reacties" [ref=e322] [cursor=pointer]:
+                  - /url: https://tweakers.net/reviews/14884/steam-controller-onverkrijgbare-controller-is-steengoed.html#reacties
+                  - img:
+                    - generic: "132"
+              - heading "zondag 28 juni" [level=2] [ref=e323]
+              - article [ref=e325]:
+                - generic "Nieuws | Games" [ref=e327]:
+                  - img [ref=e328]
+                - time [ref=e330]: 12:50
+                - link "GameStop blijft eBay-overname najagen ondanks afwijzing" [ref=e331] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249572/gamestop-blijft-ebay-overname-najagen-ondanks-afwijzing.html
+                - link "52 reacties" [ref=e333] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249572/gamestop-blijft-ebay-overname-najagen-ondanks-afwijzing.html#reacties
+                  - img:
+                    - generic: "52"
+          - generic [ref=e334]:
+            - generic [ref=e335]:
+              - article [ref=e337]:
+                - generic "Nieuws | Consoles" [ref=e339]:
+                  - img [ref=e340]
+                - time [ref=e342]: 12:27
+                - link "PlayStation 4-emulator shadPS4 krijgt online multiplayer zonder PSN" [ref=e343] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249570/playstation-4-emulator-shadps4-krijgt-online-multiplayer-zonder-psn.html
+                - link "53 reacties" [ref=e345] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249570/playstation-4-emulator-shadps4-krijgt-online-multiplayer-zonder-psn.html#reacties
+                  - img:
+                    - generic: "53"
+              - article [ref=e347]:
+                - generic "Nieuws | Smartphones" [ref=e349]:
+                  - img [ref=e350]
+                - time [ref=e352]: 11:27
+                - link "'Apple stopt 1GB extra werkgeheugen in iPhone 18 en 18e'" [ref=e353] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249568/apple-stopt-1gb-extra-werkgeheugen-in-iphone-18-en-18e.html
+                - link "148 reacties" [ref=e355] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249568/apple-stopt-1gb-extra-werkgeheugen-in-iphone-18-en-18e.html#reacties
+                  - img:
+                    - generic: "148"
+              - article [ref=e357]:
+                - generic "Nieuws | Politiek en recht" [ref=e359]:
+                  - img [ref=e360]
+                - time [ref=e362]: 10:21
+                - link "Australië verdubbelt boetes voor techbedrijven bij schending socialemediaverbod" [ref=e363] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249564/australie-verdubbelt-boetes-voor-techbedrijven-bij-schending-socialemediaverbod.html
+                - link "114 reacties" [ref=e365] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249564/australie-verdubbelt-boetes-voor-techbedrijven-bij-schending-socialemediaverbod.html#reacties
+                  - img:
+                    - generic: "114"
+              - article [ref=e367]:
+                - generic "Nieuws | Consoles" [ref=e369]:
+                  - img [ref=e370]
+                - time [ref=e372]: 09:49
+                - link "PlayStation haalt gekochte Studio Canal-films ook in VK uit collecties - update" [ref=e373] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249562/playstation-haalt-gekochte-studio-canal-films-ook-in-vk-uit-collecties.html
+                - link "213 reacties" [ref=e375] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249562/playstation-haalt-gekochte-studio-canal-films-ook-in-vk-uit-collecties.html#reacties
+                  - img:
+                    - generic: "213"
+              - article [ref=e377]:
+                - generic "Download | Systeem- en netwerkutility's" [ref=e379]:
+                  - img [ref=e380]
+                - time [ref=e382]: 08:00
+                - link "Software-update - UniGetUI 2026.2.2.0" [ref=e383] [cursor=pointer]:
+                  - /url: https://tweakers.net/downloads/77444/unigetui-2026220.html
+                - link "4 reacties" [ref=e385] [cursor=pointer]:
+                  - /url: https://tweakers.net/downloads/77444/unigetui-2026220.html#reacties
+                  - img:
+                    - generic: "4"
+            - generic [ref=e386]:
+              - article [ref=e388]:
+                - generic "Review | Cartech" [ref=e390]:
+                  - img [ref=e391]
+                - time [ref=e393]: 06:00
+                - link "Achtergrond - MG zet kleine stap richting felbegeerde solidstateaccu" [ref=e394] [cursor=pointer]:
+                  - /url: https://tweakers.net/reviews/14546/mg-zet-kleine-stap-richting-felbegeerde-solidstateaccu.html
+                - link "113 reacties" [ref=e396] [cursor=pointer]:
+                  - /url: https://tweakers.net/reviews/14546/mg-zet-kleine-stap-richting-felbegeerde-solidstateaccu.html#reacties
+                  - img:
+                    - generic: "113"
+              - heading "zaterdag 27 juni" [level=2] [ref=e397]
+              - article [ref=e399]:
+                - generic "Download | Design en multimedia" [ref=e401]:
+                  - img [ref=e402]
+                - time [ref=e404]: 16:00
+                - generic [ref=e405]:
+                  - link "XnView MP 1.11.4" [ref=e406] [cursor=pointer]:
+                    - /url: https://tweakers.net/downloads/77442/xnview-mp-1114.html
+                  - text: en
+                  - link "vier andere downloads" [ref=e407] [cursor=pointer]:
+                    - /url: https://tweakers.net/downloads/
+                - link "12 reacties" [ref=e409] [cursor=pointer]:
+                  - /url: https://tweakers.net/downloads/77442/xnview-mp-1114.html#reacties
+                  - img:
+                    - generic: "12"
+              - article [ref=e411]:
+                - generic "Nieuws | Geheugen intern" [ref=e413]:
+                  - img [ref=e414]
+                - time [ref=e416]: 13:01
+                - link "'Apple wil geheugenkosten verlagen door chips te kopen van Chinese fabrikant'" [ref=e417] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249560/apple-wil-geheugenkosten-verlagen-door-chips-te-kopen-van-chinese-fabrikant.html
+                - link "176 reacties" [ref=e419] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249560/apple-wil-geheugenkosten-verlagen-door-chips-te-kopen-van-chinese-fabrikant.html#reacties
+                  - img:
+                    - generic: "176"
+              - article [ref=e421]:
+                - generic "Nieuws | Beveiliging en antivirus" [ref=e423]:
+                  - img [ref=e424]
+                - time [ref=e426]: 12:18
+                - link "VS geeft goedgekeurde organisaties weer toegang tot Anthropics Mythos 5-model" [ref=e427] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249558/vs-geeft-goedgekeurde-organisaties-weer-toegang-tot-anthropics-mythos-5-model.html
+                - link "75 reacties" [ref=e429] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249558/vs-geeft-goedgekeurde-organisaties-weer-toegang-tot-anthropics-mythos-5-model.html#reacties
+                  - img:
+                    - generic: "75"
+              - article [ref=e431]:
+                - generic "Nieuws | Bedrijfsnieuws" [ref=e433]:
+                  - img [ref=e434]
+                - time [ref=e436]: 11:09
+                - link "'Apples Vision Pro-chef gaat hardwareproducten ontwerpen bij OpenAI'" [ref=e437] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249556/apples-vision-pro-chef-gaat-hardwareproducten-ontwerpen-bij-openai.html
+                - link "54 reacties" [ref=e439] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249556/apples-vision-pro-chef-gaat-hardwareproducten-ontwerpen-bij-openai.html#reacties
+                  - img:
+                    - generic: "54"
+          - generic [ref=e440]:
+            - generic [ref=e441]:
+              - article [ref=e443]:
+                - generic "Nieuws | Politiek en recht" [ref=e445]:
+                  - img [ref=e446]
+                - time [ref=e448]: 09:45
+                - 'link "OpenAI toont GPT-5.6: kan goed lekken vinden, maar VS beperkt voorlopig toegang" [ref=e449] [cursor=pointer]':
+                  - /url: https://tweakers.net/nieuws/249552/openai-toont-gpt-56-kan-goed-lekken-vinden-maar-vs-beperkt-voorlopig-toegang.html
+                - link "86 reacties" [ref=e451] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249552/openai-toont-gpt-56-kan-goed-lekken-vinden-maar-vs-beperkt-voorlopig-toegang.html#reacties
+                  - img:
+                    - generic: "86"
+              - article [ref=e453]:
+                - generic "Review | Televisies" [ref=e455]:
+                  - img [ref=e456]
+                - time [ref=e458]: 06:00
+                - link "Review - Samsung S99H-oled-tv Review - Een oled-tv om in te lijsten" [ref=e459] [cursor=pointer]:
+                  - /url: https://tweakers.net/reviews/14908/samsung-s99h-oled-tv-review-een-oled-tv-om-in-te-lijsten.html
+                - link "85 reacties" [ref=e461] [cursor=pointer]:
+                  - /url: https://tweakers.net/reviews/14908/samsung-s99h-oled-tv-review-een-oled-tv-om-in-te-lijsten.html#reacties
+                  - img:
+                    - generic: "85"
+              - heading "vrijdag 26 juni" [level=2] [ref=e462]
+              - article [ref=e464]:
+                - generic "Nieuws | Processors" [ref=e466]:
+                  - img [ref=e467]
+                - time [ref=e469]: 21:23
+                - 'link "Gerucht: Intel Nova Lake-topmodellen verstoken tijdens boosten maximaal 474W" [ref=e470] [cursor=pointer]':
+                  - /url: https://tweakers.net/nieuws/249550/gerucht-intel-nova-lake-topmodellen-verstoken-tijdens-boosten-maximaal-474w.html
+                - link "118 reacties" [ref=e472] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249550/gerucht-intel-nova-lake-topmodellen-verstoken-tijdens-boosten-maximaal-474w.html#reacties
+                  - img:
+                    - generic: "118"
+              - article [ref=e474]:
+                - generic "Nieuws | Software" [ref=e476]:
+                  - img [ref=e477]
+                - time [ref=e479]: 20:20
+                - link "Adobe koopt Topaz Labs en gaat AI-tools daarvan in Creative Cloud-apps stoppen" [ref=e480] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249548/adobe-koopt-topaz-labs-en-gaat-ai-tools-daarvan-in-creative-cloud-apps-stoppen.html
+                - link "113 reacties" [ref=e482] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249548/adobe-koopt-topaz-labs-en-gaat-ai-tools-daarvan-in-creative-cloud-apps-stoppen.html#reacties
+                  - img:
+                    - generic: "113"
+              - article [ref=e484]:
+                - generic "Nieuws | Laptops" [ref=e486]:
+                  - img [ref=e487]
+                - time [ref=e489]: 19:24
+                - 'link "Bloomberg: MacBook Ultra met touchscreen krijgt bij release oudere M5-chips" [ref=e490] [cursor=pointer]':
+                  - /url: https://tweakers.net/nieuws/249546/bloomberg-macbook-ultra-met-touchscreen-krijgt-bij-release-oudere-m5-chips.html
+                - link "65 reacties" [ref=e492] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249546/bloomberg-macbook-ultra-met-touchscreen-krijgt-bij-release-oudere-m5-chips.html#reacties
+                  - img:
+                    - generic: "65"
+            - generic [ref=e493]:
+              - article [ref=e495]:
+                - generic "Download | Design en multimedia" [ref=e497]:
+                  - img [ref=e498]
+                - time [ref=e500]: 18:30
+                - generic [ref=e501]:
+                  - link "AIMP 5.40 build 2721" [ref=e502] [cursor=pointer]:
+                    - /url: https://tweakers.net/downloads/77432/aimp-540-build-2721.html
+                  - text: en
+                  - link "zeven andere downloads" [ref=e503] [cursor=pointer]:
+                    - /url: https://tweakers.net/downloads/
+                - link "4 reacties" [ref=e505] [cursor=pointer]:
+                  - /url: https://tweakers.net/downloads/77432/aimp-540-build-2721.html#reacties
+                  - img:
+                    - generic: "4"
+              - article [ref=e507]:
+                - generic "Nieuws | Geheugen intern" [ref=e509]:
+                  - img [ref=e510]
+                - time [ref=e512]: 18:13
+                - link "'Samsung pompt 571 miljard euro in nieuwe chipfabrieken en AI-datacenters'" [ref=e513] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249544/samsung-pompt-571-miljard-euro-in-nieuwe-chipfabrieken-en-ai-datacenters.html
+                - link "105 reacties" [ref=e515] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249544/samsung-pompt-571-miljard-euro-in-nieuwe-chipfabrieken-en-ai-datacenters.html#reacties
+                  - img:
+                    - generic: "105"
+              - article [ref=e517]:
+                - generic "Nieuws | Bedrijfsnieuws" [ref=e519]:
+                  - img [ref=e520]
+                - time [ref=e522]: 16:59
+                - link "Samsungs SmartThings-api krijgt betaalmuur vanaf 5 dollar per maand" [ref=e523] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249542/samsungs-smartthings-api-krijgt-betaalmuur-vanaf-5-dollar-per-maand.html
+                - link "166 reacties" [ref=e525] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249542/samsungs-smartthings-api-krijgt-betaalmuur-vanaf-5-dollar-per-maand.html#reacties
+                  - img:
+                    - generic: "166"
+              - article [ref=e527]:
+                - generic "Nieuws | Games" [ref=e529]:
+                  - img [ref=e530]
+                - time [ref=e532]: 16:28
+                - 'link "Gerucht: GTA VI krijgt na release toch een fysieke versie met schijfje" [ref=e533] [cursor=pointer]':
+                  - /url: https://tweakers.net/nieuws/249538/gerucht-gta-vi-krijgt-na-release-toch-een-fysieke-versie-met-schijfje.html
+                - link "182 reacties" [ref=e535] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249538/gerucht-gta-vi-krijgt-na-release-toch-een-fysieke-versie-met-schijfje.html#reacties
+                  - img:
+                    - generic: "182"
+              - article [ref=e537]:
+                - generic "Nieuws | Laptops" [ref=e539]:
+                  - img [ref=e540]
+                - time [ref=e542]: 15:41
+                - link "Framework verlaagt prijzen sommige Laptop 13 Pro-modellen na verhogingen Apple" [ref=e543] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249540/framework-verlaagt-prijzen-sommige-laptop-13-pro-modellen-na-verhogingen-apple.html
+                - link "79 reacties" [ref=e545] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/249540/framework-verlaagt-prijzen-sommige-laptop-13-pro-modellen-na-verhogingen-apple.html#reacties
+                  - img:
+                    - generic: "79"
+      - generic [ref=e547]:
+        - heading "Nu in de community" [level=2] [ref=e548]
+        - generic [ref=e549]:
+          - generic [ref=e550]:
+            - generic [ref=e551]:
+              - heading "Audio en hifi" [level=2] [ref=e552]:
+                - link "Audio en hifi" [ref=e553] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_topics/9
+              - img [ref=e555]
+              - paragraph [ref=e556]: Alles over geluid, van subtiel zacht tot oerend hard.
+              - list [ref=e557]:
+                - listitem [ref=e558]:
+                  - link "Viking Kvinne" [ref=e559] [cursor=pointer]:
+                    - /url: https://tweakers.net/gallery/56290/
+                    - img "Viking Kvinne"
+                  - generic [ref=e560]:
+                    - link "Het Grote Vinyl Topic deel 4" [ref=e561] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_messages/2111546
+                    - link "In Audio en hifi" [ref=e562] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_topics/9
+                  - link "8.812 reacties" [ref=e563] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2111546
+                    - img:
+                      - generic: 8K
+                - listitem [ref=e564]:
+                  - link "neutraslot" [ref=e565] [cursor=pointer]:
+                    - /url: https://tweakers.net/gallery/2516156/
+                    - img "neutraslot"
+                  - generic [ref=e566]:
+                    - link "Kijk Verder via Apple TV geeft foutmelding met Viaplay" [ref=e567] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_messages/2338914
+                    - link "In Audio en hifi" [ref=e568] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_topics/9
+                  - link "0 reacties" [ref=e569] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2338914
+                    - img:
+                      - generic: "0"
+                - listitem [ref=e570]:
+                  - link "KaiTak" [ref=e571] [cursor=pointer]:
+                    - /url: https://tweakers.net/gallery/807941/
+                    - img "KaiTak"
+                  - generic [ref=e572]:
+                    - link "Kenwood KR-W8000SCD-B | ervaringen (of vergelijkbaar)" [ref=e573] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_messages/2269910
+                    - link "In Audio en hifi" [ref=e574] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_topics/9
+                  - link "2 reacties" [ref=e575] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2269910
+                    - img:
+                      - generic: "2"
+                - listitem [ref=e576]:
+                  - link "ericafterdark" [ref=e577] [cursor=pointer]:
+                    - /url: https://tweakers.net/gallery/44941/
+                    - img "ericafterdark"
+                  - generic [ref=e578]:
+                    - link "Het grote Headphones topic - Deel 2" [ref=e579] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_messages/2185090
+                    - link "In Audio en hifi" [ref=e580] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_topics/9
+                  - link "582 reacties" [ref=e581] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2185090
+                    - img:
+                      - generic: "582"
+              - link "Meer forumtopics" [ref=e582] [cursor=pointer]:
+                - /url: https://gathering.tweakers.net/forum/list_topics/9
+                - text: Meer forumtopics
+                - img [ref=e584]
+            - generic [ref=e586]:
+              - heading "Desktop vragen en advies" [level=2] [ref=e587]:
+                - link "Desktop vragen en advies" [ref=e588] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_topics/121
+              - img [ref=e590]
+              - paragraph [ref=e591]: Nieuwe desktop nodig? Hier helpen je medetweakers je graag met advies voor je aankoop.
+              - list [ref=e592]:
+                - listitem [ref=e593]:
+                  - link "2green" [ref=e594] [cursor=pointer]:
+                    - /url: https://tweakers.net/gallery/255795/
+                    - img "2green"
+                  - generic [ref=e595]:
+                    - link "Game PC voor mijn dochter van 14 na langdurige revalidatie" [ref=e596] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_messages/2339020
+                    - link "In Desktop koopadvies" [ref=e597] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_topics/121
+                  - link "4 reacties" [ref=e598] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2339020
+                    - img:
+                      - generic: "4"
+                - listitem [ref=e599]:
+                  - link "Sdoornewaard" [ref=e600] [cursor=pointer]:
+                    - /url: https://tweakers.net/gallery/1586050/
+                    - img "Sdoornewaard"
+                  - generic [ref=e601]:
+                    - link "Eerste high end PC sinds jaren" [ref=e602] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_messages/2338990
+                    - link "In Desktop koopadvies" [ref=e603] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_topics/121
+                  - link "1 reactie" [ref=e604] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2338990
+                    - img:
+                      - generic: "1"
+                - listitem [ref=e605]:
+                  - link "knorde" [ref=e606] [cursor=pointer]:
+                    - /url: https://tweakers.net/gallery/142082/
+                    - img "knorde"
+                  - generic [ref=e607]:
+                    - link "Game pc rond de 600 euro" [ref=e608] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_messages/2338352
+                    - link "In Desktop koopadvies" [ref=e609] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_topics/121
+                  - link "29 reacties" [ref=e610] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2338352
+                    - img:
+                      - generic: "29"
+                - listitem [ref=e611]:
+                  - link "Zomaar iemand" [ref=e612] [cursor=pointer]:
+                    - /url: https://tweakers.net/gallery/452032/
+                    - img "Zomaar iemand"
+                  - generic [ref=e613]:
+                    - link "Lenovo A100 (N100-Windows 11 Home-16GB-512GB)" [ref=e614] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_messages/2338334
+                    - link "In Desktop koopadvies" [ref=e615] [cursor=pointer]:
+                      - /url: https://gathering.tweakers.net/forum/list_topics/121
+                  - link "1 reactie" [ref=e616] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2338334
+                    - img:
+                      - generic: "1"
+              - link "Meer forumtopics" [ref=e617] [cursor=pointer]:
+                - /url: https://gathering.tweakers.net/forum/list_topics/121
+                - text: Meer forumtopics
+                - img [ref=e619]
+          - generic [ref=e622]:
+            - heading "Populair op het forum" [level=2] [ref=e623]:
+              - link "Populair op het forum" [ref=e624] [cursor=pointer]:
+                - /url: https://gathering.tweakers.net/forum/list_activetopics
+            - img [ref=e626]
+            - paragraph [ref=e627]: Deze topics behalen op dit moment de hoogste klokfrequenties.
+            - list [ref=e628]:
+              - listitem [ref=e629]:
+                - link "carfan" [ref=e630] [cursor=pointer]:
+                  - /url: https://tweakers.net/gallery/2226178/
+                  - img "carfan"
+                - generic [ref=e631]:
+                  - link "Tesla FSD op HW3" [ref=e632] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2332720
+                  - link "In Mobiliteit" [ref=e633] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_topics/49
+                - link "913 reacties" [ref=e634] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_messages/2332720
+                  - img:
+                    - generic: "913"
+              - listitem [ref=e635]:
+                - link "Suus1978" [ref=e636] [cursor=pointer]:
+                  - /url: https://tweakers.net/gallery/483465/
+                  - img "Suus1978"
+                - generic [ref=e637]:
+                  - link "Grindmatten over grind" [ref=e638] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2339002
+                  - link "In Bouwen en klussen" [ref=e639] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_topics/131
+                - link "9 reacties" [ref=e640] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_messages/2339002
+                  - img:
+                    - generic: "9"
+              - listitem [ref=e641]:
+                - link "onetime" [ref=e642] [cursor=pointer]:
+                  - /url: https://tweakers.net/gallery/186071/
+                  - img "onetime"
+                - generic [ref=e643]:
+                  - link "Gas gratis weg; netbeheerders / handelaren negeren de regels" [ref=e644] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2257230
+                  - link "In Duurzame energie en installaties" [ref=e645] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_topics/71
+                - link "5.158 reacties" [ref=e646] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_messages/2257230
+                  - img:
+                    - generic: 5K
+              - listitem [ref=e647]:
+                - link "Piemelaar" [ref=e648] [cursor=pointer]:
+                  - /url: https://tweakers.net/gallery/2053142/
+                  - img "Piemelaar"
+                - generic [ref=e649]:
+                  - link "Actieradius daalt veel sneller dan de werkelijk gereden afst" [ref=e650] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2339026
+                  - link "In Mobiliteit" [ref=e651] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_topics/49
+                - link "15 reacties" [ref=e652] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_messages/2339026
+                  - img:
+                    - generic: "15"
+              - listitem [ref=e653]:
+                - link "tcw82" [ref=e654] [cursor=pointer]:
+                  - /url: https://tweakers.net/gallery/1471944/
+                  - img "tcw82"
+                - generic [ref=e655]:
+                  - link "Voorrangsvraag woonwijk" [ref=e656] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2339032
+                  - link "In Mobiliteit" [ref=e657] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_topics/49
+                - link "62 reacties" [ref=e658] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_messages/2339032
+                  - img:
+                    - generic: "62"
+              - listitem [ref=e659]:
+                - link "Bananenplant" [ref=e660] [cursor=pointer]:
+                  - /url: https://tweakers.net/gallery/19715/
+                  - img "Bananenplant"
+                - generic [ref=e661]:
+                  - link "Hoe krijgen we Nederland sneller rookvrij?" [ref=e662] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2336134
+                  - link "In Actualiteit, wetenschap en maatschappij" [ref=e663] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_topics/92
+                - link "318 reacties" [ref=e664] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_messages/2336134
+                  - img:
+                    - generic: "318"
+              - listitem [ref=e665]:
+                - link "HollovVpo1nt" [ref=e666] [cursor=pointer]:
+                  - /url: https://tweakers.net/gallery/285957/
+                  - img "HollovVpo1nt"
+                - generic [ref=e667]:
+                  - link "Nieuwbouw plat sedumdak| geen valbeveiliging, geen onderhoud" [ref=e668] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2339044
+                  - link "In Wonen" [ref=e669] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_topics/142
+                - link "25 reacties" [ref=e670] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_messages/2339044
+                  - img:
+                    - generic: "25"
+              - listitem [ref=e671]:
+                - link "Jasphur" [ref=e672] [cursor=pointer]:
+                  - /url: https://tweakers.net/gallery/691815/
+                  - img "Jasphur"
+                - generic [ref=e673]:
+                  - link "Wat er nou weer voor een pand te koop staat... Jaargang 2026" [ref=e674] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_messages/2323340
+                  - link "In Wonen" [ref=e675] [cursor=pointer]:
+                    - /url: https://gathering.tweakers.net/forum/list_topics/142
+                - link "3.272 reacties" [ref=e676] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/list_messages/2323340
+                  - img:
+                    - generic: 3K
+            - link "Meer actieve topics" [ref=e677] [cursor=pointer]:
+              - /url: https://gathering.tweakers.net/forum/list_activetopics
+              - text: Meer actieve topics
+              - img [ref=e679]
+          - generic [ref=e681]:
+            - heading "Uitgelichte productreview" [level=2] [ref=e682]:
+              - link "Uitgelichte productreview" [ref=e683] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/zoeken/?itemTypes%5B%5D=1024&orderField=time&orderSort=desc
+            - generic [ref=e684]:
+              - generic [ref=e685]:
+                - link "DJI Neo 2, alleen drone - Grijs, Zwart review door lud70" [ref=e686] [cursor=pointer]:
+                  - /url: https://tweakers.net/productreview/369842/dji-neo-2-alleen-drone-grijs-zwart.html
+                  - img "DJI Neo 2, alleen drone - Grijs, Zwart review door lud70"
+                - paragraph [ref=e687]:
+                  - link "DJI Neo 2, alleen drone - Grijs, Zwart review door lud70" [ref=e688] [cursor=pointer]:
+                    - /url: https://tweakers.net/productreview/369842/dji-neo-2-alleen-drone-grijs-zwart.html
+                - blockquote [ref=e689]:
+                  - generic [ref=e690]: "“De DJI Neo 2 biedt heel veel waar voor zijn geld, en is – zonder controller – zeer regelmatig te vinden voor een vergelijkbare prijs waarvoor ik hem kocht: rond de 160 euro. Hou er wel rekening mee dat een tweede batterij (van 38 euro) geen luxe is, vanwege de korte vliegtijd, maar ook omdat de app relatief snel begint te zeuren bij een leeglopende batterij. De tracking functie is geniaal (wandelen/rennen/fietsen). De drone is supermakkelijk mee te nemen. Dat doe ik ook vaker. Ik betrap mezelf er wel op, dat ik te voorzichtig ben en hem desondanks niet gebruik. Bijvoorbeeld omdat het druk is, of broedseizoen is. Over die drempel zal ik zelf heen moeten stappen. Hieronder vind je een link naar mijn Nederlandstalige mini review op Youtube.”"
+                - link "Vanaf € 208,-" [ref=e691] [cursor=pointer]:
+                  - /url: https://tweakers.net/pricewatch/2290168/dji-neo-2-alleen-drone-grijs-zwart.html
+                  - text: Vanaf
+                  - strong: € 208,-
+                - generic [ref=e692]:
+                  - button "+3" [ref=e693]:
+                    - generic: "+3"
+                  - link "6 reacties" [ref=e694] [cursor=pointer]:
+                    - /url: https://tweakers.net/productreview/369842/dji-neo-2-alleen-drone-grijs-zwart.html#reacties
+                    - img:
+                      - generic: "6"
+                  - link "5 van 5 sterren" [ref=e695] [cursor=pointer]:
+                    - /url: https://tweakers.net/productreview/369842/dji-neo-2-alleen-drone-grijs-zwart.html
+                    - generic:
+                      - generic: 5 van 5 sterren
+                      - generic:
+                        - generic:
+                          - img
+                      - generic:
+                        - generic:
+                          - img
+                  - link "Lees review" [ref=e696] [cursor=pointer]:
+                    - /url: https://tweakers.net/productreview/369842/dji-neo-2-alleen-drone-grijs-zwart.html
+              - text: “”
+          - generic [ref=e697]:
+            - heading "Poll" [level=2] [ref=e698]:
+              - link "Poll" [ref=e699] [cursor=pointer]:
+                - /url: https://tweakers.net/poll/
+            - heading "Gebruik jij een alternatief besturingssysteem op je telefoon?" [level=3] [ref=e700]:
+              - link "Gebruik jij een alternatief besturingssysteem op je telefoon?" [ref=e701] [cursor=pointer]:
+                - /url: https://tweakers.net/poll/4466/gebruik-jij-een-alternatief-besturingssysteem-op-je-telefoon.html
+            - paragraph [ref=e702]: Nu digitale soevereiniteit en onafhankelijkheid van grote techbedrijven steeds populairder wordt, kan het interessant zijn naar alternatieven voor Android en iOS te kijken. Gebruik jij inmiddels een alternatief, mobiel besturingssysteem?
+            - group "Poll" [ref=e704]:
+              - generic [ref=e705] [cursor=pointer]:
+                - radio "Ja, ik gebruik /e/OS" [ref=e706]
+                - generic [ref=e707]: Ja, ik gebruik /e/OS
+              - generic [ref=e708] [cursor=pointer]:
+                - radio "Ja, ik gebruik GrapheneOS" [ref=e709]
+                - generic [ref=e710]: Ja, ik gebruik GrapheneOS
+              - generic [ref=e711] [cursor=pointer]:
+                - radio "Ja, ik gebruik LineageOS" [ref=e712]
+                - generic [ref=e713]: Ja, ik gebruik LineageOS
+              - generic [ref=e714] [cursor=pointer]:
+                - radio "Ja, ik gebruik Ubuntu Touch" [ref=e715]
+                - generic [ref=e716]: Ja, ik gebruik Ubuntu Touch
+              - generic [ref=e717] [cursor=pointer]:
+                - radio "Ja, een ander model, namelijk..." [ref=e718]
+                - generic [ref=e719]: Ja, een ander model, namelijk...
+              - generic [ref=e720] [cursor=pointer]:
+                - radio "Nee, ik gebruik geen alternatief OS" [ref=e721]
+                - generic [ref=e722]: Nee, ik gebruik geen alternatief OS
+            - paragraph [ref=e723]:
+              - 'link "Stemmen: 11.770" [ref=e724] [cursor=pointer]':
+                - /url: https://tweakers.net/poll/4466/gebruik-jij-een-alternatief-besturingssysteem-op-je-telefoon.html
+              - text: ·
+              - 'link "Reacties: 73" [ref=e725] [cursor=pointer]':
+                - /url: https://tweakers.net/poll/4466/gebruik-jij-een-alternatief-besturingssysteem-op-je-telefoon.html#reacties
+      - generic [ref=e726]:
+        - generic [ref=e727]:
+          - generic [ref=e728]:
+            - heading "Best Buy Guides" [level=2] [ref=e729]:
+              - link "Best Buy Guides" [ref=e730] [cursor=pointer]:
+                - /url: https://tweakers.net/reviews/zoeken/?of=time&i=265
+            - paragraph [ref=e731]: De beste koop volgens de redactie en de community van Tweakers
+          - list [ref=e732]:
+            - listitem [ref=e733] [cursor=pointer]:
+              - link "Beste smartphones 5 guides":
+                - /url: https://tweakers.net/best-buy-guide/smartphones/
+                - generic: Beste smartphones
+                - paragraph: 5 guides
+            - listitem [ref=e734] [cursor=pointer]:
+              - link "Beste laptops 5 guides":
+                - /url: https://tweakers.net/best-buy-guide/laptops/
+                - generic: Beste laptops
+                - paragraph: 5 guides
+            - listitem [ref=e735] [cursor=pointer]:
+              - link "Beste desktops 7 guides":
+                - /url: https://tweakers.net/best-buy-guide/desktops/
+                - generic: Beste desktops
+                - paragraph: 7 guides
+            - listitem [ref=e736] [cursor=pointer]:
+              - link "Beste monitors 4 guides":
+                - /url: https://tweakers.net/best-buy-guide/monitors/
+                - generic: Beste monitors
+                - paragraph: 4 guides
+            - listitem [ref=e737] [cursor=pointer]:
+              - link "Beste processors 4 guides":
+                - /url: https://tweakers.net/best-buy-guide/processors/
+                - generic: Beste processors
+                - paragraph: 4 guides
+            - listitem [ref=e738] [cursor=pointer]:
+              - link "Beste ssd's 4 guides":
+                - /url: https://tweakers.net/best-buy-guide/solid-state-drives/
+                - generic: Beste ssd's
+                - paragraph: 4 guides
+        - generic [ref=e739]:
+          - heading "Acties op Tweakers" [level=2] [ref=e740]:
+            - link "Acties op Tweakers" [ref=e741] [cursor=pointer]:
+              - /url: https://tweakers.net/info/acties-en-evenementen/
+          - list [ref=e742]:
+            - listitem [ref=e743]:
+              - 'img "V2G op schaal: hoe elektrische auto’s het stroomnet ondersteunen" [ref=e745]'
+              - 'link "V2G op schaal: hoe elektrische auto’s het stroomnet ondersteunen" [ref=e746] [cursor=pointer]':
+                - /url: https://tweakers.net/plan/4704/v2g-op-schaal-hoe-elektrische-autos-het-stroomnet-ondersteunen.html
+            - listitem [ref=e747]:
+              - img "Upgrade jouw WK-avond én derde helft met de Bol WK-deals" [ref=e749]
+              - link "Upgrade jouw WK-avond én derde helft met de Bol WK-deals" [ref=e750] [cursor=pointer]:
+                - /url: https://tweakers.net/plan/4694/upgrade-jouw-wk-avond-en-derde-helft-met-de-bol-wk-deals.html
+            - listitem [ref=e751]:
+              - 'img "Het perfecte excuus voor een upgrade: maak je huis WK-klaar met deze deals" [ref=e753]'
+              - 'link "Het perfecte excuus voor een upgrade: maak je huis WK-klaar met deze deals" [ref=e754] [cursor=pointer]':
+                - /url: https://tweakers.net/plan/4692/het-perfecte-excuus-voor-een-upgrade-maak-je-huis-wk-klaar-met-deze-deals.html
+          - link "Meer acties >" [ref=e755] [cursor=pointer]:
+            - /url: https://tweakers.net/info/acties-en-evenementen/
+        - text: Advertentie Advertentie
+  - contentinfo [ref=e756]:
+    - generic [ref=e757]:
+      - generic [ref=e758]:
+        - paragraph [ref=e759]: Tweakers. Dé onafhankelijke techexperts.
+        - link "Exonet logo" [ref=e761] [cursor=pointer]:
+          - /url: https://www.exonet.nl/
+          - img "Exonet logo" [ref=e762]:
+            - img [ref=e763]
+      - navigation "Tweakers" [ref=e765]:
+        - generic [ref=e766]: Tweakers
+        - list [ref=e767]:
+          - listitem [ref=e768]:
+            - link "Adverteren" [ref=e769] [cursor=pointer]:
+              - /url: https://www.dpgmediagroup.com/nl-NL/tweakers?utm_source=Tweakers&utm_medium=magazine&utm_campaign=adverteren&utm_term=footer&utm_content=tekstlink_Tweakers
+          - listitem [ref=e770]:
+            - link "Contact" [ref=e771] [cursor=pointer]:
+              - /url: https://tweakers.net/info/over-tweakers/contact/
+            - text: "-"
+            - link "Over ons" [ref=e772] [cursor=pointer]:
+              - /url: https://tweakers.net/info/over-tweakers/
+          - listitem [ref=e773]:
+            - link "Huisregels" [ref=e774] [cursor=pointer]:
+              - /url: https://tweakers.net/info/algemene-voorwaarden/huisregels/
+          - listitem [ref=e775]:
+            - link "Algemene voorwaarden" [ref=e776] [cursor=pointer]:
+              - /url: https://tweakers.net/info/algemene-voorwaarden/
+          - listitem [ref=e777]:
+            - link "Privacy" [ref=e778] [cursor=pointer]:
+              - /url: https://privacy.dpgmedia.nl/nl/document/privacy-policy
+          - listitem [ref=e779]:
+            - link "Cookies" [ref=e780] [cursor=pointer]:
+              - /url: https://privacy.dpgmedia.nl/nl/document/cookie-policy
+            - text: "-"
+            - link "Voorkeuren" [ref=e781] [cursor=pointer]:
+              - /url: "#"
+      - navigation "Trending" [ref=e782]:
+        - generic [ref=e783]: Trending
+        - list [ref=e784]:
+          - listitem [ref=e785]:
+            - link "Apple MacBook Neo" [ref=e786] [cursor=pointer]:
+              - /url: https://tweakers.net/laptops/apple/macbook-neo_p1853974/vergelijken/
+          - listitem [ref=e787]:
+            - link "Samsung Neo QLED QN8XH" [ref=e788] [cursor=pointer]:
+              - /url: https://tweakers.net/televisies/samsung/neo-qled-qn8xh_p1862008/vergelijken/
+          - listitem [ref=e789]:
+            - link "Xiaomi 17" [ref=e790] [cursor=pointer]:
+              - /url: https://tweakers.net/smartphones/xiaomi/17_p1796768/vergelijken/
+          - listitem [ref=e791]:
+            - link "Samsung Galaxy S26" [ref=e792] [cursor=pointer]:
+              - /url: https://tweakers.net/smartphones/samsung/galaxy-s26_p1848524/vergelijken/
+          - listitem [ref=e793]:
+            - link "007 First Light" [ref=e794] [cursor=pointer]:
+              - /url: https://tweakers.net/games/io-interactive/007-first-light_p1758998/vergelijken/
+          - listitem [ref=e795]:
+            - link "Sony WF-1000XM6" [ref=e796] [cursor=pointer]:
+              - /url: https://tweakers.net/oordopjes/sony/wf-1000xm6_p1845182/vergelijken/
+      - navigation "Social" [ref=e797]:
+        - generic [ref=e798]: Social
+        - list [ref=e799]:
+          - listitem [ref=e800]:
+            - link "BlueSky" [ref=e801] [cursor=pointer]:
+              - /url: https://bsky.app/profile/tweakers.net
+              - img [ref=e803]
+              - text: BlueSky
+          - listitem [ref=e805]:
+            - link "YouTube" [ref=e806] [cursor=pointer]:
+              - /url: https://www.youtube.com/tweakers
+              - img [ref=e808]
+              - text: YouTube
+          - listitem [ref=e810]:
+            - link "Instagram" [ref=e811] [cursor=pointer]:
+              - /url: https://www.instagram.com/tweakersnet/
+              - img [ref=e813]
+              - text: Instagram
+          - listitem [ref=e815]:
+            - link "Rss-feeds" [ref=e816] [cursor=pointer]:
+              - /url: https://tweakers.net/feeds/mixed.xml
+              - img [ref=e818]
+              - text: Rss-feeds
+          - listitem [ref=e820]:
+            - link "Discord" [ref=e821] [cursor=pointer]:
+              - /url: https://discord.gg/tweakers
+              - img [ref=e823]
+              - text: Discord
+      - generic [ref=e825]:
+        - link "Tweakers logo" [ref=e827] [cursor=pointer]:
+          - /url: https://tweakers.net/
+          - img "Tweakers logo" [ref=e828]:
+            - img [ref=e829]
+        - paragraph [ref=e831]:
+          - link "Tweakers" [ref=e832] [cursor=pointer]:
+            - /url: https://tweakers.net/
+          - text: is onderdeel van
+          - link "DPG Media B.V." [ref=e833] [cursor=pointer]:
+            - /url: https://www.dpgmediagroup.com/nl-NL/tweakers
+          - link "Alle rechten voorbehouden - Auteursrecht" [ref=e834] [cursor=pointer]:
+            - /url: https://tweakers.net/info/auteursrecht/
+          - text: © 1998 - 2026

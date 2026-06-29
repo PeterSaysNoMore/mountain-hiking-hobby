@@ -1,0 +1,930 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - paragraph [ref=e3]: Ga direct naar
+    - list [ref=e4]:
+      - listitem [ref=e5]:
+        - link "Ga naar hoofdinhoud" [ref=e6] [cursor=pointer]:
+          - /url: " #contentArea "
+      - listitem [ref=e7]:
+        - link "Ga naar de zoekbalk" [ref=e8] [cursor=pointer]:
+          - /url: "#search-bar-input"
+  - generic [ref=e9]:
+    - navigation [ref=e11]:
+      - generic [ref=e12]:
+        - 'link "Tweakers: tech-community, nieuws, reviews en de Pricewatch" [ref=e14] [cursor=pointer]':
+          - /url: https://tweakers.net/
+          - img [ref=e15]:
+            - img [ref=e16]
+        - generic: Tweakers
+        - menubar "Website menu" [ref=e18]:
+          - menuitem "Nieuws" [ref=e19] [cursor=pointer]
+          - menuitem "Reviews" [ref=e20] [cursor=pointer]
+          - menuitem "Best Buy Guides" [ref=e21] [cursor=pointer]
+          - menuitem "Pricewatch" [ref=e22] [cursor=pointer]
+          - menuitem "Vraag & Aanbod" [ref=e23] [cursor=pointer]
+          - menuitem "Forum" [ref=e24] [cursor=pointer]
+          - menuitem "Deals" [ref=e25] [cursor=pointer]
+          - menuitem "Meer" [ref=e26] [cursor=pointer]
+        - menubar "Gebruikers menu" [ref=e27]:
+          - menuitem "Zoeken" [expanded] [ref=e28] [cursor=pointer]:
+            - img [ref=e29]:
+              - img [ref=e30]
+          - menuitem "Inloggen" [ref=e32] [cursor=pointer]
+          - menuitem "Vergelijken" [ref=e33] [cursor=pointer]:
+            - img [ref=e34]:
+              - img [ref=e35]
+          - menuitem "Weergave-opties" [ref=e37] [cursor=pointer]:
+            - img [ref=e38]:
+              - img [ref=e39]
+            - 'status "Landinstelling: NL"':
+              - img
+    - generic [ref=e42]:
+      - search [ref=e43]:
+        - textbox "Zoek in de site" [ref=e45]: 40 inch tv
+        - button "Zoeken" [ref=e46] [cursor=pointer]
+      - button "Zoeken Sluiten" [ref=e47] [cursor=pointer]:
+        - generic "Zoeken sluiten" [ref=e48]: Zoeken Sluiten
+        - img [ref=e50]
+  - tabpanel [ref=e52]
+  - tablist "Sidebar navigatie" [ref=e54]:
+    - tab "Tracker" [ref=e55] [cursor=pointer]:
+      - img [ref=e57]
+      - text: Tracker
+    - tab "Actieve topics" [ref=e59] [cursor=pointer]:
+      - img [ref=e61]
+      - text: Actieve topics
+  - main [ref=e64]:
+    - heading "Zoekresultaten" [level=1] [ref=e67]
+    - generic [ref=e68]:
+      - generic [ref=e70]:
+        - text: « ×
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - heading "Zoeken in" [level=4] [ref=e77] [cursor=pointer]
+            - list [ref=e79]:
+              - listitem [ref=e80]: Alles
+              - listitem [ref=e81]:
+                - link "Nieuws" [ref=e82] [cursor=pointer]:
+                  - /url: https://tweakers.net/nieuws/zoeken/?keyword=40%20inch%20tv
+              - listitem [ref=e83]:
+                - link "Reviews" [ref=e84] [cursor=pointer]:
+                  - /url: https://tweakers.net/reviews/zoeken/?keyword=40%20inch%20tv
+              - listitem [ref=e85]:
+                - link "Pricewatch" [ref=e86] [cursor=pointer]:
+                  - /url: https://tweakers.net/pricewatch/zoeken/?keyword=40%20inch%20tv
+              - listitem [ref=e87]:
+                - link "Vraag & Aanbod" [ref=e88] [cursor=pointer]:
+                  - /url: https://tweakers.net/aanbod/zoeken/?keyword=40%20inch%20tv
+              - listitem [ref=e89]:
+                - link "Video" [ref=e90] [cursor=pointer]:
+                  - /url: https://tweakers.net/video/zoeken/?keyword=40%20inch%20tv
+              - listitem [ref=e91]:
+                - link "Forum" [ref=e92] [cursor=pointer]:
+                  - /url: https://gathering.tweakers.net/forum/find?keyword=40%20inch%20tv
+              - listitem [ref=e93]:
+                - link "Downloads" [ref=e94] [cursor=pointer]:
+                  - /url: https://tweakers.net/downloads/zoeken/?keyword=40%20inch%20tv
+          - generic [ref=e95]:
+            - heading "Datumbereik" [level=4] [ref=e96] [cursor=pointer]
+            - generic [ref=e97]:
+              - generic [ref=e98] [cursor=pointer]:
+                - generic [ref=e99]: Vanaf
+                - textbox "Vanaf" [ref=e100]
+              - generic [ref=e101] [cursor=pointer]:
+                - generic [ref=e102]: Tot
+                - textbox "Tot" [ref=e103]
+          - generic [ref=e104]:
+            - heading "Categorieën" [level=4] [ref=e105] [cursor=pointer]
+            - generic [ref=e106]:
+              - generic [ref=e107] [cursor=pointer]:
+                - generic [ref=e108]: of
+                - generic [ref=e109]: en
+              - list [ref=e110]:
+                - listitem [ref=e111]:
+                  - generic [ref=e112] [cursor=pointer]:
+                    - checkbox "Consoles 13" [ref=e114]
+                    - generic "Consoles" [ref=e115]
+                    - generic [ref=e116]: "13"
+                - listitem [ref=e117]:
+                  - generic [ref=e118] [cursor=pointer]:
+                    - checkbox "Gamecontrollers 2" [ref=e120]
+                    - generic "Gamecontrollers" [ref=e121]
+                    - generic [ref=e122]: "2"
+                - listitem [ref=e123]:
+                  - generic [ref=e124] [cursor=pointer]:
+                    - checkbox "Monitors 64" [ref=e126]
+                    - generic "Monitors" [ref=e127]
+                    - generic [ref=e128]: "64"
+                - listitem [ref=e129]:
+                  - generic [ref=e130] [cursor=pointer]:
+                    - checkbox "Nas 20" [ref=e132]
+                    - generic "Nas" [ref=e133]
+                    - generic [ref=e134]: "20"
+                - listitem [ref=e135]:
+                  - generic [ref=e136] [cursor=pointer]:
+                    - checkbox "Smartphones 108" [ref=e138]
+                    - generic "Smartphones" [ref=e139]
+                    - generic [ref=e140]: "108"
+                - listitem [ref=e141]:
+                  - generic [ref=e142] [cursor=pointer]:
+                    - checkbox "Televisies 235" [ref=e144]
+                    - generic "Televisies" [ref=e145]
+                    - generic [ref=e146]: "235"
+              - generic [ref=e147] [cursor=pointer]: Alle opties
+          - generic [ref=e148]:
+            - heading "Onderwerpen" [level=4] [ref=e149] [cursor=pointer]
+            - generic [ref=e150]:
+              - generic [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]: of
+                - generic [ref=e153]: en
+              - list [ref=e154]:
+                - listitem [ref=e155]:
+                  - generic [ref=e156] [cursor=pointer]:
+                    - checkbox "LG 84" [ref=e158]
+                    - generic "LG" [ref=e159]
+                    - generic [ref=e160]: "84"
+                - listitem [ref=e161]:
+                  - generic [ref=e162] [cursor=pointer]:
+                    - checkbox "OLED 8 series 3" [ref=e164]
+                    - generic "OLED 8 series" [ref=e165]
+                    - generic [ref=e166]: "3"
+                - listitem [ref=e167]:
+                  - generic [ref=e168] [cursor=pointer]:
+                    - checkbox "OLED evo 3" [ref=e170]
+                    - generic "OLED evo" [ref=e171]
+                    - generic [ref=e172]: "3"
+                - listitem [ref=e173]:
+                  - generic [ref=e174] [cursor=pointer]:
+                    - checkbox "Philips 54" [ref=e176]
+                    - generic "Philips" [ref=e177]
+                    - generic [ref=e178]: "54"
+                - listitem [ref=e179]:
+                  - generic [ref=e180] [cursor=pointer]:
+                    - checkbox "Samsung 113" [ref=e182]
+                    - generic "Samsung" [ref=e183]
+                    - generic [ref=e184]: "113"
+                - listitem [ref=e185]:
+                  - generic [ref=e186] [cursor=pointer]:
+                    - checkbox "Samsung OLED S95F 2" [ref=e188]
+                    - generic "Samsung OLED S95F" [ref=e189]
+                    - generic [ref=e190]: "2"
+              - generic [ref=e191] [cursor=pointer]: Alle opties
+          - generic [ref=e192]:
+            - heading "Artikeltypes" [level=4] [ref=e193] [cursor=pointer]
+            - generic [ref=e194]:
+              - list [ref=e195]:
+                - listitem [ref=e196]:
+                  - generic [ref=e197] [cursor=pointer]:
+                    - checkbox ".Geeks 2" [ref=e199]
+                    - generic ".Geeks" [ref=e200]
+                    - generic [ref=e201]: "2"
+                - listitem [ref=e202]:
+                  - generic [ref=e203] [cursor=pointer]:
+                    - checkbox ".Plans 9" [ref=e205]
+                    - generic ".Plans" [ref=e206]
+                    - generic [ref=e207]: "9"
+                - listitem [ref=e208]:
+                  - generic [ref=e209] [cursor=pointer]:
+                    - checkbox "Nieuwsberichten 77" [ref=e211]
+                    - generic "Nieuwsberichten" [ref=e212]
+                    - generic [ref=e213]: "77"
+                - listitem [ref=e214]:
+                  - generic [ref=e215] [cursor=pointer]:
+                    - checkbox "Productreviews 414" [ref=e217]
+                    - generic "Productreviews" [ref=e218]
+                    - generic [ref=e219]: "414"
+                - listitem [ref=e220]:
+                  - generic [ref=e221] [cursor=pointer]:
+                    - checkbox "Reviews 175" [ref=e223]
+                    - generic "Reviews" [ref=e224]
+                    - generic [ref=e225]: "175"
+                - listitem [ref=e226]:
+                  - generic [ref=e227] [cursor=pointer]:
+                    - checkbox "Video's 8" [ref=e229]
+                    - generic "Video's" [ref=e230]
+                    - generic [ref=e231]: "8"
+              - generic [ref=e232] [cursor=pointer]: Alle opties
+      - generic [ref=e233]:
+        - list [ref=e235]:
+          - listitem [ref=e236]:
+            - link "Panasonic Viera TX-50CX800 Zwart" [ref=e237] [cursor=pointer]:
+              - /url: https://tweakers.net/pricewatch/436291/panasonic-viera-tx-50cx800-zwart.html
+            - paragraph [ref=e238]:
+              - link "Panasonic Viera TX-50CX800 Zwart" [ref=e239] [cursor=pointer]:
+                - /url: https://tweakers.net/pricewatch/436291/panasonic-viera-tx-50cx800-zwart.html
+            - link "4 van 5 sterren" [ref=e241] [cursor=pointer]:
+              - /url: https://tweakers.net/pricewatch/436291/panasonic-viera-tx-50cx800-zwart.html#slide-in:productreviews
+              - generic [ref=e242]:
+                - generic [ref=e243]: 4 van 5 sterren
+                - img [ref=e246]
+                - img [ref=e250]
+          - listitem [ref=e252]:
+            - link "Govee Tv Backlight 3 Lite voor tv's van 40-50 inch" [ref=e253] [cursor=pointer]:
+              - /url: https://tweakers.net/pricewatch/2166540/govee-tv-backlight-3-lite-voor-tvs-van-40-50-inch.html
+            - paragraph [ref=e254]:
+              - link "Govee Tv Backlight 3 Lite voor tv's van 40-50 inch" [ref=e255] [cursor=pointer]:
+                - /url: https://tweakers.net/pricewatch/2166540/govee-tv-backlight-3-lite-voor-tvs-van-40-50-inch.html
+            - link "vanaf € 44,95" [ref=e257] [cursor=pointer]:
+              - /url: https://tweakers.net/pricewatch/2166540/govee-tv-backlight-3-lite-voor-tvs-van-40-50-inch.html
+          - listitem [ref=e258]:
+            - link "Sony SA-40SE1 Luidsprekerelement voor 40\" Bravia TV's (Zwart)" [ref=e259] [cursor=pointer]:
+              - /url: https://tweakers.net/pricewatch/295486/sony-sa-40se1-luidsprekerelement-voor-40-inch-bravia-tvs-zwart.html
+            - paragraph [ref=e260]:
+              - link "Sony SA-40SE1 Luidsprekerelement voor 40\" Bravia TV's (Zwart)" [ref=e261] [cursor=pointer]:
+                - /url: https://tweakers.net/pricewatch/295486/sony-sa-40se1-luidsprekerelement-voor-40-inch-bravia-tvs-zwart.html
+          - listitem [ref=e262]:
+            - link "Flexson Cantilever Beugel - Beam/Playbar + TV tot 65 inch" [ref=e263] [cursor=pointer]:
+              - /url: https://tweakers.net/pricewatch/1365648/flexson-cantilever-beugel-beam-playbar-+-tv-tot-65-inch.html
+            - paragraph [ref=e264]:
+              - link "Flexson Cantilever Beugel - Beam/Playbar + TV tot 65 inch" [ref=e265] [cursor=pointer]:
+                - /url: https://tweakers.net/pricewatch/1365648/flexson-cantilever-beugel-beam-playbar-+-tv-tot-65-inch.html
+        - generic [ref=e266]:
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - text: "sorteer op:"
+              - link "Relevantie" [ref=e270] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e271]: Relevantie
+              - img [ref=e274] [cursor=pointer]
+            - generic [ref=e276]: 696 resultaten - Pagina 1 van 18
+          - table [ref=e277]:
+            - rowgroup [ref=e278]:
+              - row "De 10 beste tv’s om het WK voetbal 2026 op te kijken volgens HelloTV .Adv - De 10 beste tv’s om het WK voetbal 2026 op te kijken volgens HelloTV 01-06 - Het WK voetbal is voor veel mensen niet alleen een sportief hoogtepunt, maar ook een goed excuus om eindelijk die nieuwe televisie aan te schaffen. Een groter scherm, scherper beeld en… 44 reacties" [ref=e279]:
+                - cell "De 10 beste tv’s om het WK voetbal 2026 op te kijken volgens HelloTV" [ref=e280]:
+                  - link "De 10 beste tv’s om het WK voetbal 2026 op te kijken volgens HelloTV" [ref=e281] [cursor=pointer]:
+                    - /url: https://tweakers.net/plan/4696/de-10-beste-tvs-om-het-wk-voetbal-2026-op-te-kijken-volgens-hellotv.html
+                - cell ".Adv - De 10 beste tv’s om het WK voetbal 2026 op te kijken volgens HelloTV 01-06 - Het WK voetbal is voor veel mensen niet alleen een sportief hoogtepunt, maar ook een goed excuus om eindelijk die nieuwe televisie aan te schaffen. Een groter scherm, scherper beeld en…" [ref=e282]:
+                  - paragraph [ref=e283]:
+                    - link ".Adv - De 10 beste tv’s om het WK voetbal 2026 op te kijken volgens HelloTV" [ref=e284] [cursor=pointer]:
+                      - /url: https://tweakers.net/plan/4696/de-10-beste-tvs-om-het-wk-voetbal-2026-op-te-kijken-volgens-hellotv.html
+                  - paragraph [ref=e285]: 01-06 - Het WK voetbal is voor veel mensen niet alleen een sportief hoogtepunt, maar ook een goed excuus om eindelijk die nieuwe televisie aan te schaffen. Een groter scherm, scherper beeld en…
+                - cell "44 reacties" [ref=e286]:
+                  - paragraph [ref=e287]:
+                    - link "44 reacties" [ref=e288] [cursor=pointer]:
+                      - /url: https://tweakers.net/plan/4696/de-10-beste-tvs-om-het-wk-voetbal-2026-op-te-kijken-volgens-hellotv.html#reacties
+                      - text: "44"
+              - row "115\"-Samsung Micro RGB 115MR95F-tv - Gigagroot, megaduur én met rgb-minileds Review - 115\"-Samsung Micro RGB 115MR95F-tv - Gigagroot, megaduur én met rgb-minileds 08-02 - De Samsung Micro RGB 115MR95F is de eerste rgb-miniled-tv ooit in ons testlab. Het is met 115\" ook meteen de grootste en duurste tv die we hier ooit hebben getest. 74 reacties" [ref=e289]:
+                - cell "115\"-Samsung Micro RGB 115MR95F-tv - Gigagroot, megaduur én met rgb-minileds" [ref=e290]:
+                  - link "115\"-Samsung Micro RGB 115MR95F-tv - Gigagroot, megaduur én met rgb-minileds" [ref=e291] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/14278/115-inch-samsung-micro-rgb-115mr95f-tv-gigagroot-megaduur-en-met-rgb-minileds.html
+                - cell "Review - 115\"-Samsung Micro RGB 115MR95F-tv - Gigagroot, megaduur én met rgb-minileds 08-02 - De Samsung Micro RGB 115MR95F is de eerste rgb-miniled-tv ooit in ons testlab. Het is met 115\" ook meteen de grootste en duurste tv die we hier ooit hebben getest." [ref=e292]:
+                  - paragraph [ref=e293]:
+                    - link "Review - 115\"-Samsung Micro RGB 115MR95F-tv - Gigagroot, megaduur én met rgb-minileds" [ref=e294] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/14278/115-inch-samsung-micro-rgb-115mr95f-tv-gigagroot-megaduur-en-met-rgb-minileds.html
+                  - paragraph [ref=e295]: 08-02 - De Samsung Micro RGB 115MR95F is de eerste rgb-miniled-tv ooit in ons testlab. Het is met 115" ook meteen de grootste en duurste tv die we hier ooit hebben getest.
+                - cell "74 reacties" [ref=e296]:
+                  - paragraph [ref=e297]:
+                    - link "74 reacties" [ref=e298] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/14278/115-inch-samsung-micro-rgb-115mr95f-tv-gigagroot-megaduur-en-met-rgb-minileds.html#reacties
+                      - text: "74"
+              - row "Panasonic Z90B en Z95B - Oled-tv's voor filmliefhebbers Review - Panasonic Z90B en Z95B - Oled-tv's voor filmliefhebbers 05-10 - De Z95B, is op meerdere fronten een grote stap vooruit. De tv heeft niet alleen een compleet nieuw design met een aangepast en volgens Panasonic verbeterd geluidssysteem, maar beschikt… 140 reacties" [ref=e299]:
+                - cell "Panasonic Z90B en Z95B - Oled-tv's voor filmliefhebbers" [ref=e300]:
+                  - link "Panasonic Z90B en Z95B - Oled-tv's voor filmliefhebbers" [ref=e301] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/13856/panasonic-z90b-en-z95b-oled-tvs-voor-filmliefhebbers.html
+                - cell "Review - Panasonic Z90B en Z95B - Oled-tv's voor filmliefhebbers 05-10 - De Z95B, is op meerdere fronten een grote stap vooruit. De tv heeft niet alleen een compleet nieuw design met een aangepast en volgens Panasonic verbeterd geluidssysteem, maar beschikt…" [ref=e302]:
+                  - paragraph [ref=e303]:
+                    - link "Review - Panasonic Z90B en Z95B - Oled-tv's voor filmliefhebbers" [ref=e304] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/13856/panasonic-z90b-en-z95b-oled-tvs-voor-filmliefhebbers.html
+                  - paragraph [ref=e305]: 05-10 - De Z95B, is op meerdere fronten een grote stap vooruit. De tv heeft niet alleen een compleet nieuw design met een aangepast en volgens Panasonic verbeterd geluidssysteem, maar beschikt…
+                - cell "140 reacties" [ref=e306]:
+                  - paragraph [ref=e307]:
+                    - link "140 reacties" [ref=e308] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/13856/panasonic-z90b-en-z95b-oled-tvs-voor-filmliefhebbers.html#reacties
+                      - text: "140"
+              - row "Sony Bravia 8-oled-tv - Peperdure middelmaat Review - Sony Bravia 8-oled-tv - Peperdure middelmaat 07-'24 - De Bravia 8 is voorlopig Sony's enige nieuwe oled-tv voor 2024. De tv is flink aan de prijs, maar wat krijg je daarvoor? 120 reacties" [ref=e309]:
+                - cell "Sony Bravia 8-oled-tv - Peperdure middelmaat" [ref=e310]:
+                  - link "Sony Bravia 8-oled-tv - Peperdure middelmaat" [ref=e311] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/12262/sony-bravia-8-oled-tv-peperdure-middelmaat.html
+                - cell "Review - Sony Bravia 8-oled-tv - Peperdure middelmaat 07-'24 - De Bravia 8 is voorlopig Sony's enige nieuwe oled-tv voor 2024. De tv is flink aan de prijs, maar wat krijg je daarvoor?" [ref=e312]:
+                  - paragraph [ref=e313]:
+                    - link "Review - Sony Bravia 8-oled-tv - Peperdure middelmaat" [ref=e314] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/12262/sony-bravia-8-oled-tv-peperdure-middelmaat.html
+                  - paragraph [ref=e315]: 07-'24 - De Bravia 8 is voorlopig Sony's enige nieuwe oled-tv voor 2024. De tv is flink aan de prijs, maar wat krijg je daarvoor?
+                - cell "120 reacties" [ref=e316]:
+                  - paragraph [ref=e317]:
+                    - link "120 reacties" [ref=e318] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/12262/sony-bravia-8-oled-tv-peperdure-middelmaat.html#reacties
+                      - text: "120"
+              - 'row "TV-kenners gezocht: kijk aandachtig mee in het Hisense U8Q en U7Q-testpanel .Actie - TV-kenners gezocht: kijk aandachtig mee in het Hisense U8Q en U7Q-testpanel 06-''25 - Hisense introduceerde recent twee miniled ULED-televisies: de high-end U8Q en de mid-segment U7Q. Beide toestellen zijn verkrijgbaar in maten van 55 en 65 inch. Ze maken gebruik van… 67 reacties" [ref=e319]':
+                - 'cell "TV-kenners gezocht: kijk aandachtig mee in het Hisense U8Q en U7Q-testpanel" [ref=e320]':
+                  - 'link "TV-kenners gezocht: kijk aandachtig mee in het Hisense U8Q en U7Q-testpanel" [ref=e321] [cursor=pointer]':
+                    - /url: https://tweakers.net/plan/4432/tv-kenners-gezocht-kijk-aandachtig-mee-in-het-hisense-u8q-en-u7q-testpanel.html
+                - 'cell ".Actie - TV-kenners gezocht: kijk aandachtig mee in het Hisense U8Q en U7Q-testpanel 06-''25 - Hisense introduceerde recent twee miniled ULED-televisies: de high-end U8Q en de mid-segment U7Q. Beide toestellen zijn verkrijgbaar in maten van 55 en 65 inch. Ze maken gebruik van…" [ref=e322]':
+                  - paragraph [ref=e323]:
+                    - 'link ".Actie - TV-kenners gezocht: kijk aandachtig mee in het Hisense U8Q en U7Q-testpanel" [ref=e324] [cursor=pointer]':
+                      - /url: https://tweakers.net/plan/4432/tv-kenners-gezocht-kijk-aandachtig-mee-in-het-hisense-u8q-en-u7q-testpanel.html
+                  - paragraph [ref=e325]: "06-'25 - Hisense introduceerde recent twee miniled ULED-televisies: de high-end U8Q en de mid-segment U7Q. Beide toestellen zijn verkrijgbaar in maten van 55 en 65 inch. Ze maken gebruik van…"
+                - cell "67 reacties" [ref=e326]:
+                  - paragraph [ref=e327]:
+                    - link "67 reacties" [ref=e328] [cursor=pointer]:
+                      - /url: https://tweakers.net/plan/4432/tv-kenners-gezocht-kijk-aandachtig-mee-in-het-hisense-u8q-en-u7q-testpanel.html#reacties
+                      - text: "67"
+              - row "Reuzenschermen van Hisense en TCL - De grens van 100 inch ruim voorbij Preview - Reuzenschermen van Hisense en TCL - De grens van 100 inch ruim voorbij 01-'24 - Er lijkt geen eind te komen aan de groei van televisieschermen, met als voorlopige hoogtepunten de tv's met schermformaten van 110 en 115 inch die Hisense en TCL tonen op de CES. 225 reacties" [ref=e329]:
+                - cell "Reuzenschermen van Hisense en TCL - De grens van 100 inch ruim voorbij" [ref=e330]:
+                  - link "Reuzenschermen van Hisense en TCL - De grens van 100 inch ruim voorbij" [ref=e331] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/11728/reuzenschermen-van-hisense-en-tcl-de-grens-van-100-inch-ruim-voorbij.html
+                - cell "Preview - Reuzenschermen van Hisense en TCL - De grens van 100 inch ruim voorbij 01-'24 - Er lijkt geen eind te komen aan de groei van televisieschermen, met als voorlopige hoogtepunten de tv's met schermformaten van 110 en 115 inch die Hisense en TCL tonen op de CES." [ref=e332]:
+                  - paragraph [ref=e333]:
+                    - link "Preview - Reuzenschermen van Hisense en TCL - De grens van 100 inch ruim voorbij" [ref=e334] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/11728/reuzenschermen-van-hisense-en-tcl-de-grens-van-100-inch-ruim-voorbij.html
+                  - paragraph [ref=e335]: 01-'24 - Er lijkt geen eind te komen aan de groei van televisieschermen, met als voorlopige hoogtepunten de tv's met schermformaten van 110 en 115 inch die Hisense en TCL tonen op de CES.
+                - cell "225 reacties" [ref=e336]:
+                  - paragraph [ref=e337]:
+                    - link "225 reacties" [ref=e338] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/11728/reuzenschermen-van-hisense-en-tcl-de-grens-van-100-inch-ruim-voorbij.html#reacties
+                      - text: "225"
+              - row "Philips 5000-serie 40\" Zwart Full HD LED TV + Muurbeugel Aangeboden - Philips 5000-serie 40\" Zwart Full HD LED TV + Muurbeugel 12-06 - Ben je op zoek naar een betrouwbare televisie met scherp beeld en goede aansluitmogelijkheden? Dan is deze Philips 40PFK5109/12 een uitstekende keuze. De tv verkeert in nette staat, is…" [ref=e339]:
+                - cell "Philips 5000-serie 40\" Zwart Full HD LED TV + Muurbeugel" [ref=e340]:
+                  - link "Philips 5000-serie 40\" Zwart Full HD LED TV + Muurbeugel" [ref=e341] [cursor=pointer]:
+                    - /url: https://tweakers.net/aanbod/4156400/philips-5000-serie-40-inch-zwart-full-hd-led-tv-+-muurbeugel.html
+                - cell "Aangeboden - Philips 5000-serie 40\" Zwart Full HD LED TV + Muurbeugel 12-06 - Ben je op zoek naar een betrouwbare televisie met scherp beeld en goede aansluitmogelijkheden? Dan is deze Philips 40PFK5109/12 een uitstekende keuze. De tv verkeert in nette staat, is…" [ref=e342]:
+                  - paragraph [ref=e343]:
+                    - link "Aangeboden - Philips 5000-serie 40\" Zwart Full HD LED TV + Muurbeugel" [ref=e344] [cursor=pointer]:
+                      - /url: https://tweakers.net/aanbod/4156400/philips-5000-serie-40-inch-zwart-full-hd-led-tv-+-muurbeugel.html
+                  - paragraph [ref=e345]: 12-06 - Ben je op zoek naar een betrouwbare televisie met scherp beeld en goede aansluitmogelijkheden? Dan is deze Philips 40PFK5109/12 een uitstekende keuze. De tv verkeert in nette staat, is…
+                - cell [ref=e346]:
+                  - paragraph
+              - 'row "Testpanel XL: test een LG-monitor, Verbatim-reisadapter en/of Samsung-oled-tv .Actie - Testpanel XL: test een LG-monitor, Verbatim-reisadapter en/of Samsung-oled-tv 06-''25 - Testpanels zijn op Tweakers inmiddels beroemd en berucht. Deze keer zetten we drie apparaten in één keer in het spotlicht. We zoeken communityleden die aan de slag willen gaan met de LG… 57 reacties" [ref=e347]':
+                - 'cell "Testpanel XL: test een LG-monitor, Verbatim-reisadapter en/of Samsung-oled-tv" [ref=e348]':
+                  - 'link "Testpanel XL: test een LG-monitor, Verbatim-reisadapter en/of Samsung-oled-tv" [ref=e349] [cursor=pointer]':
+                    - /url: https://tweakers.net/plan/4446/testpanel-xl-test-een-lg-monitor-verbatim-reisadapter-en-of-samsung-oled-tv.html
+                - 'cell ".Actie - Testpanel XL: test een LG-monitor, Verbatim-reisadapter en/of Samsung-oled-tv 06-''25 - Testpanels zijn op Tweakers inmiddels beroemd en berucht. Deze keer zetten we drie apparaten in één keer in het spotlicht. We zoeken communityleden die aan de slag willen gaan met de LG…" [ref=e350]':
+                  - paragraph [ref=e351]:
+                    - 'link ".Actie - Testpanel XL: test een LG-monitor, Verbatim-reisadapter en/of Samsung-oled-tv" [ref=e352] [cursor=pointer]':
+                      - /url: https://tweakers.net/plan/4446/testpanel-xl-test-een-lg-monitor-verbatim-reisadapter-en-of-samsung-oled-tv.html
+                  - paragraph [ref=e353]: 06-'25 - Testpanels zijn op Tweakers inmiddels beroemd en berucht. Deze keer zetten we drie apparaten in één keer in het spotlicht. We zoeken communityleden die aan de slag willen gaan met de LG…
+                - cell "57 reacties" [ref=e354]:
+                  - paragraph [ref=e355]:
+                    - link "57 reacties" [ref=e356] [cursor=pointer]:
+                      - /url: https://tweakers.net/plan/4446/testpanel-xl-test-een-lg-monitor-verbatim-reisadapter-en-of-samsung-oled-tv.html#reacties
+                      - text: "57"
+              - row "Het jaar van oledmonitors en megagrote miniled-tv's Achtergrond - Het jaar van oledmonitors en megagrote miniled-tv's 12-'24 - Nu 2024 op zijn einde loopt, blikken we aan de hand van data uit de Tweakers Pricewatch terug op de belangrijkste ontwikkelingen voor televisies en monitors van het afgelopen jaar. 111 reacties" [ref=e357]:
+                - cell "Het jaar van oledmonitors en megagrote miniled-tv's" [ref=e358]:
+                  - link "Het jaar van oledmonitors en megagrote miniled-tv's" [ref=e359] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/12788/het-jaar-van-oledmonitors-en-megagrote-miniled-tvs.html
+                - cell "Achtergrond - Het jaar van oledmonitors en megagrote miniled-tv's 12-'24 - Nu 2024 op zijn einde loopt, blikken we aan de hand van data uit de Tweakers Pricewatch terug op de belangrijkste ontwikkelingen voor televisies en monitors van het afgelopen jaar." [ref=e360]:
+                  - paragraph [ref=e361]:
+                    - link "Achtergrond - Het jaar van oledmonitors en megagrote miniled-tv's" [ref=e362] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/12788/het-jaar-van-oledmonitors-en-megagrote-miniled-tvs.html
+                  - paragraph [ref=e363]: 12-'24 - Nu 2024 op zijn einde loopt, blikken we aan de hand van data uit de Tweakers Pricewatch terug op de belangrijkste ontwikkelingen voor televisies en monitors van het afgelopen jaar.
+                - cell "111 reacties" [ref=e364]:
+                  - paragraph [ref=e365]:
+                    - link "111 reacties" [ref=e366] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/12788/het-jaar-van-oledmonitors-en-megagrote-miniled-tvs.html#reacties
+                      - text: "111"
+              - row "Samsung S95D - De oled-tv die bijna niet spiegelt Review - Samsung S95D - De oled-tv die bijna niet spiegelt 05-'24 - De S95D is Samsungs QD-oledtopmodel voor 2024 en de eerste oled-tv met een mat scherm. We hebben hem getest en ontdekten dat het ook de helderste oled-tv is. 163 reacties" [ref=e367]:
+                - cell "Samsung S95D - De oled-tv die bijna niet spiegelt" [ref=e368]:
+                  - link "Samsung S95D - De oled-tv die bijna niet spiegelt" [ref=e369] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/12072/samsung-s95d-de-oled-tv-die-bijna-niet-spiegelt.html
+                - cell "Review - Samsung S95D - De oled-tv die bijna niet spiegelt 05-'24 - De S95D is Samsungs QD-oledtopmodel voor 2024 en de eerste oled-tv met een mat scherm. We hebben hem getest en ontdekten dat het ook de helderste oled-tv is." [ref=e370]:
+                  - paragraph [ref=e371]:
+                    - link "Review - Samsung S95D - De oled-tv die bijna niet spiegelt" [ref=e372] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/12072/samsung-s95d-de-oled-tv-die-bijna-niet-spiegelt.html
+                  - paragraph [ref=e373]: 05-'24 - De S95D is Samsungs QD-oledtopmodel voor 2024 en de eerste oled-tv met een mat scherm. We hebben hem getest en ontdekten dat het ook de helderste oled-tv is.
+                - cell "163 reacties" [ref=e374]:
+                  - paragraph [ref=e375]:
+                    - link "163 reacties" [ref=e376] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/12072/samsung-s95d-de-oled-tv-die-bijna-niet-spiegelt.html#reacties
+                      - text: "163"
+              - row "Oled-tv's van 42 tot 83 inch - Veel nieuwe paneelmaten van LG Display Achtergrond - Oled-tv's van 42 tot 83 inch - Veel nieuwe paneelmaten van LG Display 03-'21 - Dit jaar komt LG Display met een aantal nieuwe oledpaneelmaten. Daardoor komen er nog meer oled-tv's in afwijkende formaten. Hoe bereikt LG Display dat? 102 reacties" [ref=e377]:
+                - cell "Oled-tv's van 42 tot 83 inch - Veel nieuwe paneelmaten van LG Display" [ref=e378]:
+                  - link "Oled-tv's van 42 tot 83 inch - Veel nieuwe paneelmaten van LG Display" [ref=e379] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/8866/oled-tvs-van-42-tot-83-inch-veel-nieuwe-paneelmaten-van-lg-display.html
+                - cell "Achtergrond - Oled-tv's van 42 tot 83 inch - Veel nieuwe paneelmaten van LG Display 03-'21 - Dit jaar komt LG Display met een aantal nieuwe oledpaneelmaten. Daardoor komen er nog meer oled-tv's in afwijkende formaten. Hoe bereikt LG Display dat?" [ref=e380]:
+                  - paragraph [ref=e381]:
+                    - link "Achtergrond - Oled-tv's van 42 tot 83 inch - Veel nieuwe paneelmaten van LG Display" [ref=e382] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/8866/oled-tvs-van-42-tot-83-inch-veel-nieuwe-paneelmaten-van-lg-display.html
+                  - paragraph [ref=e383]: 03-'21 - Dit jaar komt LG Display met een aantal nieuwe oledpaneelmaten. Daardoor komen er nog meer oled-tv's in afwijkende formaten. Hoe bereikt LG Display dat?
+                - cell "102 reacties" [ref=e384]:
+                  - paragraph [ref=e385]:
+                    - link "102 reacties" [ref=e386] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/8866/oled-tvs-van-42-tot-83-inch-veel-nieuwe-paneelmaten-van-lg-display.html#reacties
+                      - text: "102"
+              - row "Philips The One PUS8808-tv - Eén voor allen? Review - Philips The One PUS8808-tv - Eén voor allen? 02-'24 - De Philips The One 65PUS8808 heeft ondersteuning voor alle gangbare hdr-formaten. We hebben de tv getest om te zien of het de ideale gezinstelevisie is. 53 reacties" [ref=e387]:
+                - cell "Philips The One PUS8808-tv - Eén voor allen?" [ref=e388]:
+                  - link "Philips The One PUS8808-tv - Eén voor allen?" [ref=e389] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/11850/philips-the-one-pus8808-tv-een-voor-allen.html
+                - cell "Review - Philips The One PUS8808-tv - Eén voor allen? 02-'24 - De Philips The One 65PUS8808 heeft ondersteuning voor alle gangbare hdr-formaten. We hebben de tv getest om te zien of het de ideale gezinstelevisie is." [ref=e390]:
+                  - paragraph [ref=e391]:
+                    - link "Review - Philips The One PUS8808-tv - Eén voor allen?" [ref=e392] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/11850/philips-the-one-pus8808-tv-een-voor-allen.html
+                  - paragraph [ref=e393]: 02-'24 - De Philips The One 65PUS8808 heeft ondersteuning voor alle gangbare hdr-formaten. We hebben de tv getest om te zien of het de ideale gezinstelevisie is.
+                - cell "53 reacties" [ref=e394]:
+                  - paragraph [ref=e395]:
+                    - link "53 reacties" [ref=e396] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/11850/philips-the-one-pus8808-tv-een-voor-allen.html#reacties
+                      - text: "53"
+              - row "De tv-trends voor 2024 - Nieuwe oleds, minileds en betere beeldprocessors Preview - De tv-trends voor 2024 - Nieuwe oleds, minileds en betere beeldprocessors 01-'24 - De CES is traditiegetrouw dé beurs waar televisiefabrikanten nieuwe technologie en hun nieuwe modellen tonen, en ook dit jaar stelde de beurs niet teleur. Nu de beurs erop zit, kunnen… 54 reacties" [ref=e397]:
+                - cell "De tv-trends voor 2024 - Nieuwe oleds, minileds en betere beeldprocessors" [ref=e398]:
+                  - link "De tv-trends voor 2024 - Nieuwe oleds, minileds en betere beeldprocessors" [ref=e399] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/11738/de-tv-trends-voor-2024-nieuwe-oleds-minileds-en-betere-beeldprocessors.html
+                - cell "Preview - De tv-trends voor 2024 - Nieuwe oleds, minileds en betere beeldprocessors 01-'24 - De CES is traditiegetrouw dé beurs waar televisiefabrikanten nieuwe technologie en hun nieuwe modellen tonen, en ook dit jaar stelde de beurs niet teleur. Nu de beurs erop zit, kunnen…" [ref=e400]:
+                  - paragraph [ref=e401]:
+                    - link "Preview - De tv-trends voor 2024 - Nieuwe oleds, minileds en betere beeldprocessors" [ref=e402] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/11738/de-tv-trends-voor-2024-nieuwe-oleds-minileds-en-betere-beeldprocessors.html
+                  - paragraph [ref=e403]: 01-'24 - De CES is traditiegetrouw dé beurs waar televisiefabrikanten nieuwe technologie en hun nieuwe modellen tonen, en ook dit jaar stelde de beurs niet teleur. Nu de beurs erop zit, kunnen…
+                - cell "54 reacties" [ref=e404]:
+                  - paragraph [ref=e405]:
+                    - link "54 reacties" [ref=e406] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/11738/de-tv-trends-voor-2024-nieuwe-oleds-minileds-en-betere-beeldprocessors.html#reacties
+                      - text: "54"
+              - row "Partnership Philips TV en Bowers & Wilkins levert een complete oled-tv-ervaring .Adv - Partnership Philips TV en Bowers & Wilkins levert een complete oled-tv-ervaring 02-'23 - Wie een Philips Ambilight-televisie in het hogere segment aanschaft, geniet ‘automatisch’ van speakers van Bowers & Wilkins. De samenwerking tussen het bekende Engelse audiomerk en TP… 26 reacties" [ref=e407]:
+                - cell "Partnership Philips TV en Bowers & Wilkins levert een complete oled-tv-ervaring" [ref=e408]:
+                  - link "Partnership Philips TV en Bowers & Wilkins levert een complete oled-tv-ervaring" [ref=e409] [cursor=pointer]:
+                    - /url: https://tweakers.net/plan/3834/partnership-philips-tv-en-bowers-en-wilkins-levert-een-complete-oled-tv-ervaring.html
+                - cell ".Adv - Partnership Philips TV en Bowers & Wilkins levert een complete oled-tv-ervaring 02-'23 - Wie een Philips Ambilight-televisie in het hogere segment aanschaft, geniet ‘automatisch’ van speakers van Bowers & Wilkins. De samenwerking tussen het bekende Engelse audiomerk en TP…" [ref=e410]:
+                  - paragraph [ref=e411]:
+                    - link ".Adv - Partnership Philips TV en Bowers & Wilkins levert een complete oled-tv-ervaring" [ref=e412] [cursor=pointer]:
+                      - /url: https://tweakers.net/plan/3834/partnership-philips-tv-en-bowers-en-wilkins-levert-een-complete-oled-tv-ervaring.html
+                  - paragraph [ref=e413]: 02-'23 - Wie een Philips Ambilight-televisie in het hogere segment aanschaft, geniet ‘automatisch’ van speakers van Bowers & Wilkins. De samenwerking tussen het bekende Engelse audiomerk en TP…
+                - cell "26 reacties" [ref=e414]:
+                  - paragraph [ref=e415]:
+                    - link "26 reacties" [ref=e416] [cursor=pointer]:
+                      - /url: https://tweakers.net/plan/3834/partnership-philips-tv-en-bowers-en-wilkins-levert-een-complete-oled-tv-ervaring.html#reacties
+                      - text: "26"
+              - row "Motorola razr 40 ultra - Klaptelefoon met keerzijde Review - Motorola razr 40 ultra - Klaptelefoon met keerzijde 06-'23 - Motorola brengt dit jaar niet een, maar twee vouwbare smartphones op de markt. Wij gaan aan de slag met het krachtigste exemplaar. 19 reacties" [ref=e417]:
+                - cell "Motorola razr 40 ultra - Klaptelefoon met keerzijde" [ref=e418]:
+                  - link "Motorola razr 40 ultra - Klaptelefoon met keerzijde" [ref=e419] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/11156/motorola-razr-40-ultra-klaptelefoon-met-keerzijde.html
+                - cell "Review - Motorola razr 40 ultra - Klaptelefoon met keerzijde 06-'23 - Motorola brengt dit jaar niet een, maar twee vouwbare smartphones op de markt. Wij gaan aan de slag met het krachtigste exemplaar." [ref=e420]:
+                  - paragraph [ref=e421]:
+                    - link "Review - Motorola razr 40 ultra - Klaptelefoon met keerzijde" [ref=e422] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/11156/motorola-razr-40-ultra-klaptelefoon-met-keerzijde.html
+                  - paragraph [ref=e423]: 06-'23 - Motorola brengt dit jaar niet een, maar twee vouwbare smartphones op de markt. Wij gaan aan de slag met het krachtigste exemplaar.
+                - cell "19 reacties" [ref=e424]:
+                  - paragraph [ref=e425]:
+                    - link "19 reacties" [ref=e426] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/11156/motorola-razr-40-ultra-klaptelefoon-met-keerzijde.html#reacties
+                      - text: "19"
+              - row "Philips 40PFL9704H Zilver, Zwart Aangeboden - Philips 40PFL9704H Zilver, Zwart 22-05 - Philips tv, 40-inch Full HD LED-Lcd. Philips tv die de afgelopen jaren vrijwel niet in gebruik is geweest. In uitstekende staat, inclusief voeten." [ref=e427]:
+                - cell "Philips 40PFL9704H Zilver, Zwart" [ref=e428]:
+                  - link "Philips 40PFL9704H Zilver, Zwart" [ref=e429] [cursor=pointer]:
+                    - /url: https://tweakers.net/aanbod/4143688/philips-40pfl9704h-zilver-zwart.html
+                - cell "Aangeboden - Philips 40PFL9704H Zilver, Zwart 22-05 - Philips tv, 40-inch Full HD LED-Lcd. Philips tv die de afgelopen jaren vrijwel niet in gebruik is geweest. In uitstekende staat, inclusief voeten." [ref=e430]:
+                  - paragraph [ref=e431]:
+                    - link "Aangeboden - Philips 40PFL9704H Zilver, Zwart" [ref=e432] [cursor=pointer]:
+                      - /url: https://tweakers.net/aanbod/4143688/philips-40pfl9704h-zilver-zwart.html
+                  - paragraph [ref=e433]: 22-05 - Philips tv, 40-inch Full HD LED-Lcd. Philips tv die de afgelopen jaren vrijwel niet in gebruik is geweest. In uitstekende staat, inclusief voeten.
+                - cell [ref=e434]:
+                  - paragraph
+              - 'row "De Samsung Neo QLED QNx1D-tv: miniled, quantumdottechnologie en local dimming .Adv - De Samsung Neo QLED QNx1D-tv: miniled, quantumdottechnologie en local dimming 06-''24 - Rond de televisie-line-up van Samsung lopen momenteel meerdere acties. In dit artikel gaan we in op de Samsung Neo QLED QNx1D, een tv die is voorzien van een Neo Quantum 4k-processor. 13 reacties" [ref=e435]':
+                - 'cell "De Samsung Neo QLED QNx1D-tv: miniled, quantumdottechnologie en local dimming" [ref=e436]':
+                  - 'link "De Samsung Neo QLED QNx1D-tv: miniled, quantumdottechnologie en local dimming" [ref=e437] [cursor=pointer]':
+                    - /url: https://tweakers.net/plan/4178/de-samsung-neo-qled-qnx1d-tv-miniled-quantumdottechnologie-en-local-dimming.html
+                - 'cell ".Adv - De Samsung Neo QLED QNx1D-tv: miniled, quantumdottechnologie en local dimming 06-''24 - Rond de televisie-line-up van Samsung lopen momenteel meerdere acties. In dit artikel gaan we in op de Samsung Neo QLED QNx1D, een tv die is voorzien van een Neo Quantum 4k-processor." [ref=e438]':
+                  - paragraph [ref=e439]:
+                    - 'link ".Adv - De Samsung Neo QLED QNx1D-tv: miniled, quantumdottechnologie en local dimming" [ref=e440] [cursor=pointer]':
+                      - /url: https://tweakers.net/plan/4178/de-samsung-neo-qled-qnx1d-tv-miniled-quantumdottechnologie-en-local-dimming.html
+                  - paragraph [ref=e441]: 06-'24 - Rond de televisie-line-up van Samsung lopen momenteel meerdere acties. In dit artikel gaan we in op de Samsung Neo QLED QNx1D, een tv die is voorzien van een Neo Quantum 4k-processor.
+                - cell "13 reacties" [ref=e442]:
+                  - paragraph [ref=e443]:
+                    - link "13 reacties" [ref=e444] [cursor=pointer]:
+                      - /url: https://tweakers.net/plan/4178/de-samsung-neo-qled-qnx1d-tv-miniled-quantumdottechnologie-en-local-dimming.html#reacties
+                      - text: "13"
+              - row "Sony Bravia KDL-40W3000 Aangeboden - Sony Bravia KDL-40W3000 03-05 - Wegens vervanging TV in de woonkamer mag deze TV naar een nieuwe eigenaar toe! werkt nog perfect en beeld is prima voor bijv een game/slaapkamer! Maar wegens de maat (40 inch) is die…" [ref=e445]:
+                - cell "Sony Bravia KDL-40W3000" [ref=e446]:
+                  - link "Sony Bravia KDL-40W3000" [ref=e447] [cursor=pointer]:
+                    - /url: https://tweakers.net/aanbod/4130468/sony-bravia-kdl-40w3000.html
+                - cell "Aangeboden - Sony Bravia KDL-40W3000 03-05 - Wegens vervanging TV in de woonkamer mag deze TV naar een nieuwe eigenaar toe! werkt nog perfect en beeld is prima voor bijv een game/slaapkamer! Maar wegens de maat (40 inch) is die…" [ref=e448]:
+                  - paragraph [ref=e449]:
+                    - link "Aangeboden - Sony Bravia KDL-40W3000" [ref=e450] [cursor=pointer]:
+                      - /url: https://tweakers.net/aanbod/4130468/sony-bravia-kdl-40w3000.html
+                  - paragraph [ref=e451]: 03-05 - Wegens vervanging TV in de woonkamer mag deze TV naar een nieuwe eigenaar toe! werkt nog perfect en beeld is prima voor bijv een game/slaapkamer! Maar wegens de maat (40 inch) is die…
+                - cell [ref=e452]:
+                  - paragraph
+              - row "Samsung LE-40M87BD Aangeboden - Samsung LE-40M87BD 06-05 - TV aangeboden. Is een wat ouder model maar werkt nog prima. 40 inch LCD. Eventueel met (gebruikte) Chromecast over te nemen voor 20 euro extra." [ref=e453]:
+                - cell "Samsung LE-40M87BD" [ref=e454]:
+                  - link "Samsung LE-40M87BD" [ref=e455] [cursor=pointer]:
+                    - /url: https://tweakers.net/aanbod/4133406/samsung-le-40m87bd.html
+                - cell "Aangeboden - Samsung LE-40M87BD 06-05 - TV aangeboden. Is een wat ouder model maar werkt nog prima. 40 inch LCD. Eventueel met (gebruikte) Chromecast over te nemen voor 20 euro extra." [ref=e456]:
+                  - paragraph [ref=e457]:
+                    - link "Aangeboden - Samsung LE-40M87BD" [ref=e458] [cursor=pointer]:
+                      - /url: https://tweakers.net/aanbod/4133406/samsung-le-40m87bd.html
+                  - paragraph [ref=e459]: 06-05 - TV aangeboden. Is een wat ouder model maar werkt nog prima. 40 inch LCD. Eventueel met (gebruikte) Chromecast over te nemen voor 20 euro extra.
+                - cell [ref=e460]:
+                  - paragraph
+              - 'row "Sony ZG9 8k-tv - 85 inch, 16 luidsprekers en 33 miljoen pixels Review - Sony ZG9 8k-tv - 85 inch, 16 luidsprekers en 33 miljoen pixels 06-''19 - Dit is een tv van grote getallen: een diagonaal van 85”, een gewicht van 75kg, 16 luidsprekers, 33 miljoen pixels, en een helderheid van 4000cd/m². En dat voor maar 17.000 euro. 152 reacties" [ref=e461]':
+                - cell "Sony ZG9 8k-tv - 85 inch, 16 luidsprekers en 33 miljoen pixels" [ref=e462]:
+                  - link "Sony ZG9 8k-tv - 85 inch, 16 luidsprekers en 33 miljoen pixels" [ref=e463] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/7116/sony-zg9-8k-tv-85-inch-16-luidsprekers-en-33-miljoen-pixels.html
+                - 'cell "Review - Sony ZG9 8k-tv - 85 inch, 16 luidsprekers en 33 miljoen pixels 06-''19 - Dit is een tv van grote getallen: een diagonaal van 85”, een gewicht van 75kg, 16 luidsprekers, 33 miljoen pixels, en een helderheid van 4000cd/m². En dat voor maar 17.000 euro." [ref=e464]':
+                  - paragraph [ref=e465]:
+                    - link "Review - Sony ZG9 8k-tv - 85 inch, 16 luidsprekers en 33 miljoen pixels" [ref=e466] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/7116/sony-zg9-8k-tv-85-inch-16-luidsprekers-en-33-miljoen-pixels.html
+                  - paragraph [ref=e467]: "06-'19 - Dit is een tv van grote getallen: een diagonaal van 85”, een gewicht van 75kg, 16 luidsprekers, 33 miljoen pixels, en een helderheid van 4000cd/m². En dat voor maar 17.000 euro."
+                - cell "152 reacties" [ref=e468]:
+                  - paragraph [ref=e469]:
+                    - link "152 reacties" [ref=e470] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/7116/sony-zg9-8k-tv-85-inch-16-luidsprekers-en-33-miljoen-pixels.html#reacties
+                      - text: "152"
+              - 'row "Samsung UE40H6400AW Zwart Aangeboden - Samsung UE40H6400AW Zwart 04-05 - Samsung televisie 40 inch Type: Samsung UE40H6400AW Zwart Let op! Er zitten 6 oplichtende stippen in het scherm. Ik heb het opgezocht en volgens internet zijn het kapjes onder het…" [ref=e471]':
+                - cell "Samsung UE40H6400AW Zwart" [ref=e472]:
+                  - link "Samsung UE40H6400AW Zwart" [ref=e473] [cursor=pointer]:
+                    - /url: https://tweakers.net/aanbod/4088886/samsung-ue40h6400aw-zwart.html
+                - 'cell "Aangeboden - Samsung UE40H6400AW Zwart 04-05 - Samsung televisie 40 inch Type: Samsung UE40H6400AW Zwart Let op! Er zitten 6 oplichtende stippen in het scherm. Ik heb het opgezocht en volgens internet zijn het kapjes onder het…" [ref=e474]':
+                  - paragraph [ref=e475]:
+                    - link "Aangeboden - Samsung UE40H6400AW Zwart" [ref=e476] [cursor=pointer]:
+                      - /url: https://tweakers.net/aanbod/4088886/samsung-ue40h6400aw-zwart.html
+                  - paragraph [ref=e477]: "04-05 - Samsung televisie 40 inch Type: Samsung UE40H6400AW Zwart Let op! Er zitten 6 oplichtende stippen in het scherm. Ik heb het opgezocht en volgens internet zijn het kapjes onder het…"
+                - cell [ref=e478]:
+                  - paragraph
+              - row "Samsung verkocht vorig jaar 1 miljoen oled-tv's, verwacht komend jaar stijging Nieuws - Samsung verkocht vorig jaar 1 miljoen oled-tv's, verwacht komend jaar stijging 02-'24 - Samsung Electronics heeft vorig jaar 1,01 miljoen oled-televisies verkocht. De fabrikant verwacht dat zijn marktaandeel in de sector voor oled-tv's, dat nu goed is voor bijna 23… 62 reacties" [ref=e479]:
+                - cell "Samsung verkocht vorig jaar 1 miljoen oled-tv's, verwacht komend jaar stijging" [ref=e480]:
+                  - link "Samsung verkocht vorig jaar 1 miljoen oled-tv's, verwacht komend jaar stijging" [ref=e481] [cursor=pointer]:
+                    - /url: https://tweakers.net/nieuws/218792/samsung-verkocht-vorig-jaar-1-miljoen-oled-tvs-verwacht-komend-jaar-stijging.html
+                - cell "Nieuws - Samsung verkocht vorig jaar 1 miljoen oled-tv's, verwacht komend jaar stijging 02-'24 - Samsung Electronics heeft vorig jaar 1,01 miljoen oled-televisies verkocht. De fabrikant verwacht dat zijn marktaandeel in de sector voor oled-tv's, dat nu goed is voor bijna 23…" [ref=e482]:
+                  - paragraph [ref=e483]:
+                    - link "Nieuws - Samsung verkocht vorig jaar 1 miljoen oled-tv's, verwacht komend jaar stijging" [ref=e484] [cursor=pointer]:
+                      - /url: https://tweakers.net/nieuws/218792/samsung-verkocht-vorig-jaar-1-miljoen-oled-tvs-verwacht-komend-jaar-stijging.html
+                  - paragraph [ref=e485]: 02-'24 - Samsung Electronics heeft vorig jaar 1,01 miljoen oled-televisies verkocht. De fabrikant verwacht dat zijn marktaandeel in de sector voor oled-tv's, dat nu goed is voor bijna 23…
+                - cell "62 reacties" [ref=e486]:
+                  - paragraph [ref=e487]:
+                    - link "62 reacties" [ref=e488] [cursor=pointer]:
+                      - /url: https://tweakers.net/nieuws/218792/samsung-verkocht-vorig-jaar-1-miljoen-oled-tvs-verwacht-komend-jaar-stijging.html#reacties
+                      - text: "62"
+              - row "TP Vision toont Philips-oled-tv's met HDMI 2.1 en formaten van 48 tot 77 inch Nieuws - TP Vision toont Philips-oled-tv's met HDMI 2.1 en formaten van 48 tot 77 inch 01-'21 - TP Vision heeft twee nieuwe Philips-oled-tv's gepresenteerd die dit jaar zullen uitkomen. Een voorname verandering is de toevoeging van HDMI 2.1-ondersteuning. Ook komt er bij een model… 61 reacties" [ref=e489]:
+                - cell "TP Vision toont Philips-oled-tv's met HDMI 2.1 en formaten van 48 tot 77 inch" [ref=e490]:
+                  - link "TP Vision toont Philips-oled-tv's met HDMI 2.1 en formaten van 48 tot 77 inch" [ref=e491] [cursor=pointer]:
+                    - /url: https://tweakers.net/nieuws/177360/tp-vision-toont-philips-oled-tvs-met-hdmi-21-en-formaten-van-48-tot-77-inch.html
+                - cell "Nieuws - TP Vision toont Philips-oled-tv's met HDMI 2.1 en formaten van 48 tot 77 inch 01-'21 - TP Vision heeft twee nieuwe Philips-oled-tv's gepresenteerd die dit jaar zullen uitkomen. Een voorname verandering is de toevoeging van HDMI 2.1-ondersteuning. Ook komt er bij een model…" [ref=e492]:
+                  - paragraph [ref=e493]:
+                    - link "Nieuws - TP Vision toont Philips-oled-tv's met HDMI 2.1 en formaten van 48 tot 77 inch" [ref=e494] [cursor=pointer]:
+                      - /url: https://tweakers.net/nieuws/177360/tp-vision-toont-philips-oled-tvs-met-hdmi-21-en-formaten-van-48-tot-77-inch.html
+                  - paragraph [ref=e495]: 01-'21 - TP Vision heeft twee nieuwe Philips-oled-tv's gepresenteerd die dit jaar zullen uitkomen. Een voorname verandering is de toevoeging van HDMI 2.1-ondersteuning. Ook komt er bij een model…
+                - cell "61 reacties" [ref=e496]:
+                  - paragraph [ref=e497]:
+                    - link "61 reacties" [ref=e498] [cursor=pointer]:
+                      - /url: https://tweakers.net/nieuws/177360/tp-vision-toont-philips-oled-tvs-met-hdmi-21-en-formaten-van-48-tot-77-inch.html#reacties
+                      - text: "61"
+              - 'row "8k-tv''s: wordt het nog wat? - Cijfers, content en energiedoemscenario Achtergrond - 8k-tv''s: wordt het nog wat? - Cijfers, content en energiedoemscenario 11-''22 - 8k-televisies zijn geen exotische apparaten meer, maar zijn nog altijd niet erg populair. Hoe zit het met de verkopen en wat maakt de 8k-businesscase zo lastig? 215 reacties" [ref=e499]':
+                - 'cell "8k-tv''s: wordt het nog wat? - Cijfers, content en energiedoemscenario" [ref=e500]':
+                  - 'link "8k-tv''s: wordt het nog wat? - Cijfers, content en energiedoemscenario" [ref=e501] [cursor=pointer]':
+                    - /url: https://tweakers.net/reviews/10618/8k-tvs-wordt-het-nog-wat-cijfers-content-en-energiedoemscenario.html
+                - 'cell "Achtergrond - 8k-tv''s: wordt het nog wat? - Cijfers, content en energiedoemscenario 11-''22 - 8k-televisies zijn geen exotische apparaten meer, maar zijn nog altijd niet erg populair. Hoe zit het met de verkopen en wat maakt de 8k-businesscase zo lastig?" [ref=e502]':
+                  - paragraph [ref=e503]:
+                    - 'link "Achtergrond - 8k-tv''s: wordt het nog wat? - Cijfers, content en energiedoemscenario" [ref=e504] [cursor=pointer]':
+                      - /url: https://tweakers.net/reviews/10618/8k-tvs-wordt-het-nog-wat-cijfers-content-en-energiedoemscenario.html
+                  - paragraph [ref=e505]: 11-'22 - 8k-televisies zijn geen exotische apparaten meer, maar zijn nog altijd niet erg populair. Hoe zit het met de verkopen en wat maakt de 8k-businesscase zo lastig?
+                - cell "215 reacties" [ref=e506]:
+                  - paragraph [ref=e507]:
+                    - link "215 reacties" [ref=e508] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/10618/8k-tvs-wordt-het-nog-wat-cijfers-content-en-energiedoemscenario.html#reacties
+                      - text: "215"
+              - row "Panasonic LZW2004 - De beste (w)oled tv van dit jaar? Review - Panasonic LZW2004 - De beste (w)oled tv van dit jaar? 09-'22 - De Panasonic LZW2004 is een bijna professionele televisie in beeldkwaliteit met een opvallend goed geluidssysteem. 109 reacties" [ref=e509]:
+                - cell "Panasonic LZW2004 - De beste (w)oled tv van dit jaar?" [ref=e510]:
+                  - link "Panasonic LZW2004 - De beste (w)oled tv van dit jaar?" [ref=e511] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/10392/panasonic-lzw2004-de-beste-woled-tv-van-dit-jaar.html
+                - cell "Review - Panasonic LZW2004 - De beste (w)oled tv van dit jaar? 09-'22 - De Panasonic LZW2004 is een bijna professionele televisie in beeldkwaliteit met een opvallend goed geluidssysteem." [ref=e512]:
+                  - paragraph [ref=e513]:
+                    - link "Review - Panasonic LZW2004 - De beste (w)oled tv van dit jaar?" [ref=e514] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/10392/panasonic-lzw2004-de-beste-woled-tv-van-dit-jaar.html
+                  - paragraph [ref=e515]: 09-'22 - De Panasonic LZW2004 is een bijna professionele televisie in beeldkwaliteit met een opvallend goed geluidssysteem.
+                - cell "109 reacties" [ref=e516]:
+                  - paragraph [ref=e517]:
+                    - link "109 reacties" [ref=e518] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/10392/panasonic-lzw2004-de-beste-woled-tv-van-dit-jaar.html#reacties
+                      - text: "109"
+              - row "LG C1 oled-tv - Is groter beter? Review - LG C1 oled-tv - Is groter beter? 07-'21 - De LG C-serie is al jaren de populairste tv in de Pricewatch. We hebben drie maten getest van de C1 en kunnen zo antwoord geven op de vraag of groter beter is. 187 reacties" [ref=e519]:
+                - cell "LG C1 oled-tv - Is groter beter?" [ref=e520]:
+                  - link "LG C1 oled-tv - Is groter beter?" [ref=e521] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/9186/lg-c1-oled-tv-is-groter-beter.html
+                - cell "Review - LG C1 oled-tv - Is groter beter? 07-'21 - De LG C-serie is al jaren de populairste tv in de Pricewatch. We hebben drie maten getest van de C1 en kunnen zo antwoord geven op de vraag of groter beter is." [ref=e522]:
+                  - paragraph [ref=e523]:
+                    - link "Review - LG C1 oled-tv - Is groter beter?" [ref=e524] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/9186/lg-c1-oled-tv-is-groter-beter.html
+                  - paragraph [ref=e525]: 07-'21 - De LG C-serie is al jaren de populairste tv in de Pricewatch. We hebben drie maten getest van de C1 en kunnen zo antwoord geven op de vraag of groter beter is.
+                - cell "187 reacties" [ref=e526]:
+                  - paragraph [ref=e527]:
+                    - link "187 reacties" [ref=e528] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/9186/lg-c1-oled-tv-is-groter-beter.html#reacties
+                      - text: "187"
+              - row "LG introduceert 42\"-oled-tv met paneel dat in stapjes is te buigen Nieuws - LG introduceert 42\"-oled-tv met paneel dat in stapjes is te buigen 08-'22 - LG heeft op de IFA in Berlijn zijn eerste buigbare oled-tv geïntroduceerd, de LG Flex. Het betreft een oled-tv met een beelddiagonaal van 42 inch waarvan de kromming zowel via een knop… 29 reacties" [ref=e529]:
+                - cell "LG introduceert 42\"-oled-tv met paneel dat in stapjes is te buigen" [ref=e530]:
+                  - link "LG introduceert 42\"-oled-tv met paneel dat in stapjes is te buigen" [ref=e531] [cursor=pointer]:
+                    - /url: https://tweakers.net/nieuws/200532/lg-introduceert-42-inch-oled-tv-met-paneel-dat-in-stapjes-is-te-buigen.html
+                - cell "Nieuws - LG introduceert 42\"-oled-tv met paneel dat in stapjes is te buigen 08-'22 - LG heeft op de IFA in Berlijn zijn eerste buigbare oled-tv geïntroduceerd, de LG Flex. Het betreft een oled-tv met een beelddiagonaal van 42 inch waarvan de kromming zowel via een knop…" [ref=e532]:
+                  - paragraph [ref=e533]:
+                    - link "Nieuws - LG introduceert 42\"-oled-tv met paneel dat in stapjes is te buigen" [ref=e534] [cursor=pointer]:
+                      - /url: https://tweakers.net/nieuws/200532/lg-introduceert-42-inch-oled-tv-met-paneel-dat-in-stapjes-is-te-buigen.html
+                  - paragraph [ref=e535]: 08-'22 - LG heeft op de IFA in Berlijn zijn eerste buigbare oled-tv geïntroduceerd, de LG Flex. Het betreft een oled-tv met een beelddiagonaal van 42 inch waarvan de kromming zowel via een knop…
+                - cell "29 reacties" [ref=e536]:
+                  - paragraph [ref=e537]:
+                    - link "29 reacties" [ref=e538] [cursor=pointer]:
+                      - /url: https://tweakers.net/nieuws/200532/lg-introduceert-42-inch-oled-tv-met-paneel-dat-in-stapjes-is-te-buigen.html#reacties
+                      - text: "29"
+              - row "Samsung QN95A-tv - Superhelder beeld dankzij minileds Review - Samsung QN95A-tv - Superhelder beeld dankzij minileds 06-'21 - De Samsung QN95A is een 4k-tv op basis van de lcd-techniek. Samsung heeft de nadelen van lcd bijna weggewerkt en het voordeel, de hoge helderheid, versterkt. 139 reacties" [ref=e539]:
+                - cell "Samsung QN95A-tv - Superhelder beeld dankzij minileds" [ref=e540]:
+                  - link "Samsung QN95A-tv - Superhelder beeld dankzij minileds" [ref=e541] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/8992/samsung-qn95a-tv-superhelder-beeld-dankzij-minileds.html
+                - cell "Review - Samsung QN95A-tv - Superhelder beeld dankzij minileds 06-'21 - De Samsung QN95A is een 4k-tv op basis van de lcd-techniek. Samsung heeft de nadelen van lcd bijna weggewerkt en het voordeel, de hoge helderheid, versterkt." [ref=e542]:
+                  - paragraph [ref=e543]:
+                    - link "Review - Samsung QN95A-tv - Superhelder beeld dankzij minileds" [ref=e544] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/8992/samsung-qn95a-tv-superhelder-beeld-dankzij-minileds.html
+                  - paragraph [ref=e545]: 06-'21 - De Samsung QN95A is een 4k-tv op basis van de lcd-techniek. Samsung heeft de nadelen van lcd bijna weggewerkt en het voordeel, de hoge helderheid, versterkt.
+                - cell "139 reacties" [ref=e546]:
+                  - paragraph [ref=e547]:
+                    - link "139 reacties" [ref=e548] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/8992/samsung-qn95a-tv-superhelder-beeld-dankzij-minileds.html#reacties
+                      - text: "139"
+              - row "TCL introduceert C93-miniled-tv met 4k144 en 1080 of 1920 dimbare zones Nieuws - TCL introduceert C93-miniled-tv met 4k144 en 1080 of 1920 dimbare zones 04-'22 - TCL heeft QLED-lcd-tv's met miniledbacklight aangekondigd voor de Europese markt. Daaronder bevindt zich het vlaggenschipmodel, de C93, een miniled-tv die 4k met 144Hz combineert en… 20 reacties" [ref=e549]:
+                - cell "TCL introduceert C93-miniled-tv met 4k144 en 1080 of 1920 dimbare zones" [ref=e550]:
+                  - link "TCL introduceert C93-miniled-tv met 4k144 en 1080 of 1920 dimbare zones" [ref=e551] [cursor=pointer]:
+                    - /url: https://tweakers.net/nieuws/195498/tcl-introduceert-c93-miniled-tv-met-4k144-en-1080-of-1920-dimbare-zones.html
+                - cell "Nieuws - TCL introduceert C93-miniled-tv met 4k144 en 1080 of 1920 dimbare zones 04-'22 - TCL heeft QLED-lcd-tv's met miniledbacklight aangekondigd voor de Europese markt. Daaronder bevindt zich het vlaggenschipmodel, de C93, een miniled-tv die 4k met 144Hz combineert en…" [ref=e552]:
+                  - paragraph [ref=e553]:
+                    - link "Nieuws - TCL introduceert C93-miniled-tv met 4k144 en 1080 of 1920 dimbare zones" [ref=e554] [cursor=pointer]:
+                      - /url: https://tweakers.net/nieuws/195498/tcl-introduceert-c93-miniled-tv-met-4k144-en-1080-of-1920-dimbare-zones.html
+                  - paragraph [ref=e555]: 04-'22 - TCL heeft QLED-lcd-tv's met miniledbacklight aangekondigd voor de Europese markt. Daaronder bevindt zich het vlaggenschipmodel, de C93, een miniled-tv die 4k met 144Hz combineert en…
+                - cell "20 reacties" [ref=e556]:
+                  - paragraph [ref=e557]:
+                    - link "20 reacties" [ref=e558] [cursor=pointer]:
+                      - /url: https://tweakers.net/nieuws/195498/tcl-introduceert-c93-miniled-tv-met-4k144-en-1080-of-1920-dimbare-zones.html#reacties
+                      - text: "20"
+              - row "Hisense 75U7Q PRO Zwart review door Hermaaen Productreview - +3 Hisense 75U7Q PRO Zwart review door Hermaaen 27-12 - Mijn review is gebruiks review, wat n heel ander type review oplevert dan de cijfertjes en meet-reviews. Ik game niet, zit niet 300 mtr onder de grond in t donker getallen te verzamelen… 0 reacties" [ref=e559]:
+                - cell "Hisense 75U7Q PRO Zwart review door Hermaaen" [ref=e560]:
+                  - link "Hisense 75U7Q PRO Zwart review door Hermaaen" [ref=e561] [cursor=pointer]:
+                    - /url: https://tweakers.net/productreview/363584/hisense-75u7q-pro-zwart.html
+                - cell "Productreview - +3 Hisense 75U7Q PRO Zwart review door Hermaaen 27-12 - Mijn review is gebruiks review, wat n heel ander type review oplevert dan de cijfertjes en meet-reviews. Ik game niet, zit niet 300 mtr onder de grond in t donker getallen te verzamelen…" [ref=e562]:
+                  - paragraph [ref=e563]:
+                    - link "Productreview - +3 Hisense 75U7Q PRO Zwart review door Hermaaen" [ref=e564] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/363584/hisense-75u7q-pro-zwart.html
+                      - text: Productreview -
+                      - 'generic "Beoordeling van de review: +3" [ref=e565]': "+3"
+                      - text: Hisense 75U7Q PRO Zwart review door Hermaaen
+                  - paragraph [ref=e566]: 27-12 - Mijn review is gebruiks review, wat n heel ander type review oplevert dan de cijfertjes en meet-reviews. Ik game niet, zit niet 300 mtr onder de grond in t donker getallen te verzamelen…
+                - cell "0 reacties" [ref=e567]:
+                  - paragraph [ref=e568]:
+                    - link "0 reacties" [ref=e569] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/363584/hisense-75u7q-pro-zwart.html#reacties
+                      - text: "0"
+              - row "LG G1 oled-tv - Een evolutie aan je muur Review - LG G1 oled-tv - Een evolutie aan je muur 05-'21 - De LG G1 heeft niet alleen een zeer goede beeldkwaliteit, hij is superplat en kan met de meegeleverde muurbeugel strak tegen de muur worden gehangen. 252 reacties" [ref=e570]:
+                - cell "LG G1 oled-tv - Een evolutie aan je muur" [ref=e571]:
+                  - link "LG G1 oled-tv - Een evolutie aan je muur" [ref=e572] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/8942/lg-g1-oled-tv-een-evolutie-aan-je-muur.html
+                - cell "Review - LG G1 oled-tv - Een evolutie aan je muur 05-'21 - De LG G1 heeft niet alleen een zeer goede beeldkwaliteit, hij is superplat en kan met de meegeleverde muurbeugel strak tegen de muur worden gehangen." [ref=e573]:
+                  - paragraph [ref=e574]:
+                    - link "Review - LG G1 oled-tv - Een evolutie aan je muur" [ref=e575] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/8942/lg-g1-oled-tv-een-evolutie-aan-je-muur.html
+                  - paragraph [ref=e576]: 05-'21 - De LG G1 heeft niet alleen een zeer goede beeldkwaliteit, hij is superplat en kan met de meegeleverde muurbeugel strak tegen de muur worden gehangen.
+                - cell "252 reacties" [ref=e577]:
+                  - paragraph [ref=e578]:
+                    - link "252 reacties" [ref=e579] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/8942/lg-g1-oled-tv-een-evolutie-aan-je-muur.html#reacties
+                      - text: "252"
+              - 'row "Samsung UE48H5500AW: keurige tv in karige behuizing Review - Samsung UE48H5500AW: keurige tv in karige behuizing 02-''15 - Samsung heeft duidelijk keuzes gemaakt om de H5500 betaalbaar te houden. Of er ook op de beeld- en geluidskwaliteit is bezuinigd onderzoeken we in deze review. 128 reacties" [ref=e580]':
+                - 'cell "Samsung UE48H5500AW: keurige tv in karige behuizing" [ref=e581]':
+                  - 'link "Samsung UE48H5500AW: keurige tv in karige behuizing" [ref=e582] [cursor=pointer]':
+                    - /url: https://tweakers.net/reviews/3901/samsung-ue48h5500aw-keurige-tv-in-karige-behuizing.html
+                - 'cell "Review - Samsung UE48H5500AW: keurige tv in karige behuizing 02-''15 - Samsung heeft duidelijk keuzes gemaakt om de H5500 betaalbaar te houden. Of er ook op de beeld- en geluidskwaliteit is bezuinigd onderzoeken we in deze review." [ref=e583]':
+                  - paragraph [ref=e584]:
+                    - 'link "Review - Samsung UE48H5500AW: keurige tv in karige behuizing" [ref=e585] [cursor=pointer]':
+                      - /url: https://tweakers.net/reviews/3901/samsung-ue48h5500aw-keurige-tv-in-karige-behuizing.html
+                  - paragraph [ref=e586]: 02-'15 - Samsung heeft duidelijk keuzes gemaakt om de H5500 betaalbaar te houden. Of er ook op de beeld- en geluidskwaliteit is bezuinigd onderzoeken we in deze review.
+                - cell "128 reacties" [ref=e587]:
+                  - paragraph [ref=e588]:
+                    - link "128 reacties" [ref=e589] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/3901/samsung-ue48h5500aw-keurige-tv-in-karige-behuizing.html#reacties
+                      - text: "128"
+              - row "LG OLED evo C56 55\" Zwart review door astridvl112 Productreview - LG OLED evo C56 55\" Zwart review door astridvl112 08-'25 - Ik heb de LG OLED55C56LB tv mogen testen. Ik schrok een beetje van het formaat want de vorige tv was maar 40 inch en dan is dit indrukwekkend. Alleen uitpakken en installeren was geen… 0 reacties" [ref=e590]:
+                - cell "LG OLED evo C56 55\" Zwart review door astridvl112" [ref=e591]:
+                  - link "LG OLED evo C56 55\" Zwart review door astridvl112" [ref=e592] [cursor=pointer]:
+                    - /url: https://tweakers.net/productreview/354394/lg-oled-evo-c56-55-inch-zwart.html
+                - cell "Productreview - LG OLED evo C56 55\" Zwart review door astridvl112 08-'25 - Ik heb de LG OLED55C56LB tv mogen testen. Ik schrok een beetje van het formaat want de vorige tv was maar 40 inch en dan is dit indrukwekkend. Alleen uitpakken en installeren was geen…" [ref=e593]:
+                  - paragraph [ref=e594]:
+                    - link "Productreview - LG OLED evo C56 55\" Zwart review door astridvl112" [ref=e595] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/354394/lg-oled-evo-c56-55-inch-zwart.html
+                  - paragraph [ref=e596]: 08-'25 - Ik heb de LG OLED55C56LB tv mogen testen. Ik schrok een beetje van het formaat want de vorige tv was maar 40 inch en dan is dit indrukwekkend. Alleen uitpakken en installeren was geen…
+                - cell "0 reacties" [ref=e597]:
+                  - paragraph [ref=e598]:
+                    - link "0 reacties" [ref=e599] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/354394/lg-oled-evo-c56-55-inch-zwart.html#reacties
+                      - text: "0"
+              - row "LG GX oled-tv - Platter dan de platste televisie Review - LG GX oled-tv - Platter dan de platste televisie 07-'20 - Zoek je een strakke tv bij je strakke interieur, dan moet je de LG GX overwegen. Hij is maar 2cm dik en kan, met de meegeleverde muurbeugel, naadloos tegen een muur worden bevestigd. 196 reacties" [ref=e600]:
+                - cell "LG GX oled-tv - Platter dan de platste televisie" [ref=e601]:
+                  - link "LG GX oled-tv - Platter dan de platste televisie" [ref=e602] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/7950/lg-gx-oled-tv-platter-dan-de-platste-televisie.html
+                - cell "Review - LG GX oled-tv - Platter dan de platste televisie 07-'20 - Zoek je een strakke tv bij je strakke interieur, dan moet je de LG GX overwegen. Hij is maar 2cm dik en kan, met de meegeleverde muurbeugel, naadloos tegen een muur worden bevestigd." [ref=e603]:
+                  - paragraph [ref=e604]:
+                    - link "Review - LG GX oled-tv - Platter dan de platste televisie" [ref=e605] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/7950/lg-gx-oled-tv-platter-dan-de-platste-televisie.html
+                  - paragraph [ref=e606]: 07-'20 - Zoek je een strakke tv bij je strakke interieur, dan moet je de LG GX overwegen. Hij is maar 2cm dik en kan, met de meegeleverde muurbeugel, naadloos tegen een muur worden bevestigd.
+                - cell "196 reacties" [ref=e607]:
+                  - paragraph [ref=e608]:
+                    - link "196 reacties" [ref=e609] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/7950/lg-gx-oled-tv-platter-dan-de-platste-televisie.html#reacties
+                      - text: "196"
+              - row "Elements ELT40DE910B Zwart review door pbeer Productreview - +2 Elements ELT40DE910B Zwart review door pbeer 10-'21 - Ik vind de TV opvallend lichtgewicht, de kijkhoek is fantastisch, het beeld is helder en er zijn voldoende instellingen om deze aan te passen. De klank van het geluid vinden wij het… 6 reacties" [ref=e610]:
+                - cell "Elements ELT40DE910B Zwart review door pbeer" [ref=e611]:
+                  - link "Elements ELT40DE910B Zwart review door pbeer" [ref=e612] [cursor=pointer]:
+                    - /url: https://tweakers.net/productreview/275220/elements-elt40de910b-zwart.html
+                - cell "Productreview - +2 Elements ELT40DE910B Zwart review door pbeer 10-'21 - Ik vind de TV opvallend lichtgewicht, de kijkhoek is fantastisch, het beeld is helder en er zijn voldoende instellingen om deze aan te passen. De klank van het geluid vinden wij het…" [ref=e613]:
+                  - paragraph [ref=e614]:
+                    - link "Productreview - +2 Elements ELT40DE910B Zwart review door pbeer" [ref=e615] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/275220/elements-elt40de910b-zwart.html
+                      - text: Productreview -
+                      - 'generic "Beoordeling van de review: +2" [ref=e616]': "+2"
+                      - text: Elements ELT40DE910B Zwart review door pbeer
+                  - paragraph [ref=e617]: 10-'21 - Ik vind de TV opvallend lichtgewicht, de kijkhoek is fantastisch, het beeld is helder en er zijn voldoende instellingen om deze aan te passen. De klank van het geluid vinden wij het…
+                - cell "6 reacties" [ref=e618]:
+                  - paragraph [ref=e619]:
+                    - link "6 reacties" [ref=e620] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/275220/elements-elt40de910b-zwart.html#reacties
+                      - text: "6"
+              - row "Teufel Ultima 40 ACTIVE 3 Zwart review door Ivo Verschoor Productreview - Teufel Ultima 40 ACTIVE 3 Zwart review door Ivo Verschoor 17-06 - Een goede speakerset waar goed geluid uitkomt, bouwkwaliteit is top. Eventueel uitbreidbaar met de draadloze subwoofers/achter speakers van Teufel. Lees uitgebreide review voor mijn… 0 reacties" [ref=e621]:
+                - cell "Teufel Ultima 40 ACTIVE 3 Zwart review door Ivo Verschoor" [ref=e622]:
+                  - link "Teufel Ultima 40 ACTIVE 3 Zwart review door Ivo Verschoor" [ref=e623] [cursor=pointer]:
+                    - /url: https://tweakers.net/productreview/369698/teufel-ultima-40-active-3-zwart.html
+                - cell "Productreview - Teufel Ultima 40 ACTIVE 3 Zwart review door Ivo Verschoor 17-06 - Een goede speakerset waar goed geluid uitkomt, bouwkwaliteit is top. Eventueel uitbreidbaar met de draadloze subwoofers/achter speakers van Teufel. Lees uitgebreide review voor mijn…" [ref=e624]:
+                  - paragraph [ref=e625]:
+                    - link "Productreview - Teufel Ultima 40 ACTIVE 3 Zwart review door Ivo Verschoor" [ref=e626] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/369698/teufel-ultima-40-active-3-zwart.html
+                  - paragraph [ref=e627]: 17-06 - Een goede speakerset waar goed geluid uitkomt, bouwkwaliteit is top. Eventueel uitbreidbaar met de draadloze subwoofers/achter speakers van Teufel. Lees uitgebreide review voor mijn…
+                - cell "0 reacties" [ref=e628]:
+                  - paragraph [ref=e629]:
+                    - link "0 reacties" [ref=e630] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/369698/teufel-ultima-40-active-3-zwart.html#reacties
+                      - text: "0"
+              - row "Haal meer uit je dertiende maand, met de elektronica-eindejaarsdeals van bol .Adv - Haal meer uit je dertiende maand, met de elektronica-eindejaarsdeals van bol 16-12 - Aan het einde van het jaar komt bij veel mensen, en dus ook techliefhebbers, de dertiende maand of eindejaarsbonus in zicht. Het is het ideale moment om die gloednieuwe tv, die snellere… 40 reacties" [ref=e631]:
+                - cell "Haal meer uit je dertiende maand, met de elektronica-eindejaarsdeals van bol" [ref=e632]:
+                  - link "Haal meer uit je dertiende maand, met de elektronica-eindejaarsdeals van bol" [ref=e633] [cursor=pointer]:
+                    - /url: https://tweakers.net/plan/4582/haal-meer-uit-je-dertiende-maand-met-de-elektronica-eindejaarsdeals-van-bol.html
+                - cell ".Adv - Haal meer uit je dertiende maand, met de elektronica-eindejaarsdeals van bol 16-12 - Aan het einde van het jaar komt bij veel mensen, en dus ook techliefhebbers, de dertiende maand of eindejaarsbonus in zicht. Het is het ideale moment om die gloednieuwe tv, die snellere…" [ref=e634]:
+                  - paragraph [ref=e635]:
+                    - link ".Adv - Haal meer uit je dertiende maand, met de elektronica-eindejaarsdeals van bol" [ref=e636] [cursor=pointer]:
+                      - /url: https://tweakers.net/plan/4582/haal-meer-uit-je-dertiende-maand-met-de-elektronica-eindejaarsdeals-van-bol.html
+                  - paragraph [ref=e637]: 16-12 - Aan het einde van het jaar komt bij veel mensen, en dus ook techliefhebbers, de dertiende maand of eindejaarsbonus in zicht. Het is het ideale moment om die gloednieuwe tv, die snellere…
+                - cell "40 reacties" [ref=e638]:
+                  - paragraph [ref=e639]:
+                    - link "40 reacties" [ref=e640] [cursor=pointer]:
+                      - /url: https://tweakers.net/plan/4582/haal-meer-uit-je-dertiende-maand-met-de-elektronica-eindejaarsdeals-van-bol.html#reacties
+                      - text: "40"
+              - 'row "Hdtv''s rond de 600 euro: vier keer 49 inch getest Round-up - Hdtv''s rond de 600 euro: vier keer 49 inch getest 08-''16 - Als je zoekt naar een nieuwe tv die je geen rib uit je lijf kost, dan is deze round-up voor jou. Hierin vergelijken we vier recente modellen van Panasonic, Philips, Samsung en Sony. 246 reacties" [ref=e641]':
+                - 'cell "Hdtv''s rond de 600 euro: vier keer 49 inch getest" [ref=e642]':
+                  - 'link "Hdtv''s rond de 600 euro: vier keer 49 inch getest" [ref=e643] [cursor=pointer]':
+                    - /url: https://tweakers.net/reviews/4753/hdtvs-rond-de-600-euro-vier-keer-49-inch-getest.html
+                - 'cell "Round-up - Hdtv''s rond de 600 euro: vier keer 49 inch getest 08-''16 - Als je zoekt naar een nieuwe tv die je geen rib uit je lijf kost, dan is deze round-up voor jou. Hierin vergelijken we vier recente modellen van Panasonic, Philips, Samsung en Sony." [ref=e644]':
+                  - paragraph [ref=e645]:
+                    - 'link "Round-up - Hdtv''s rond de 600 euro: vier keer 49 inch getest" [ref=e646] [cursor=pointer]':
+                      - /url: https://tweakers.net/reviews/4753/hdtvs-rond-de-600-euro-vier-keer-49-inch-getest.html
+                  - paragraph [ref=e647]: 08-'16 - Als je zoekt naar een nieuwe tv die je geen rib uit je lijf kost, dan is deze round-up voor jou. Hierin vergelijken we vier recente modellen van Panasonic, Philips, Samsung en Sony.
+                - cell "246 reacties" [ref=e648]:
+                  - paragraph [ref=e649]:
+                    - link "246 reacties" [ref=e650] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/4753/hdtvs-rond-de-600-euro-vier-keer-49-inch-getest.html#reacties
+                      - text: "246"
+              - row "Sony Bravia KDL-40W705C Zwart review door Matedeor Productreview - +1 Sony Bravia KDL-40W705C Zwart review door Matedeor 11-'15 - Voor circa 480 euro krijg je een 40 inch tv die goed presteert wat betreft beeldkwaliteit. Ook het geluid is goed te noemen. De tv is al met al een goede allrounder, en laat nergens… 7 reacties" [ref=e651]:
+                - cell "Sony Bravia KDL-40W705C Zwart review door Matedeor" [ref=e652]:
+                  - link "Sony Bravia KDL-40W705C Zwart review door Matedeor" [ref=e653] [cursor=pointer]:
+                    - /url: https://tweakers.net/productreview/119476/sony-bravia-kdl-40w705c-zwart.html
+                - cell "Productreview - +1 Sony Bravia KDL-40W705C Zwart review door Matedeor 11-'15 - Voor circa 480 euro krijg je een 40 inch tv die goed presteert wat betreft beeldkwaliteit. Ook het geluid is goed te noemen. De tv is al met al een goede allrounder, en laat nergens…" [ref=e654]:
+                  - paragraph [ref=e655]:
+                    - link "Productreview - +1 Sony Bravia KDL-40W705C Zwart review door Matedeor" [ref=e656] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/119476/sony-bravia-kdl-40w705c-zwart.html
+                      - text: Productreview -
+                      - 'generic "Beoordeling van de review: +1" [ref=e657]': "+1"
+                      - text: Sony Bravia KDL-40W705C Zwart review door Matedeor
+                  - paragraph [ref=e658]: 11-'15 - Voor circa 480 euro krijg je een 40 inch tv die goed presteert wat betreft beeldkwaliteit. Ook het geluid is goed te noemen. De tv is al met al een goede allrounder, en laat nergens…
+                - cell "7 reacties" [ref=e659]:
+                  - paragraph [ref=e660]:
+                    - link "7 reacties" [ref=e661] [cursor=pointer]:
+                      - /url: https://tweakers.net/productreview/119476/sony-bravia-kdl-40w705c-zwart.html#reacties
+                      - text: "7"
+              - row "Huawei P40 Pro - Een smartphone is meer dan een camera Review - Huawei P40 Pro - Een smartphone is meer dan een camera 04-'20 - Geen Google-diensten, maar wel prachtige hardware en een zeer interessante camera. Compenseert dat het gebrek aan apps als YouTube, Maps, Agenda en Googles wachtwoordmanager? 192 reacties" [ref=e662]:
+                - cell "Huawei P40 Pro - Een smartphone is meer dan een camera" [ref=e663]:
+                  - link "Huawei P40 Pro - Een smartphone is meer dan een camera" [ref=e664] [cursor=pointer]:
+                    - /url: https://tweakers.net/reviews/7786/huawei-p40-pro-een-smartphone-is-meer-dan-een-camera.html
+                - cell "Review - Huawei P40 Pro - Een smartphone is meer dan een camera 04-'20 - Geen Google-diensten, maar wel prachtige hardware en een zeer interessante camera. Compenseert dat het gebrek aan apps als YouTube, Maps, Agenda en Googles wachtwoordmanager?" [ref=e665]:
+                  - paragraph [ref=e666]:
+                    - link "Review - Huawei P40 Pro - Een smartphone is meer dan een camera" [ref=e667] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/7786/huawei-p40-pro-een-smartphone-is-meer-dan-een-camera.html
+                  - paragraph [ref=e668]: 04-'20 - Geen Google-diensten, maar wel prachtige hardware en een zeer interessante camera. Compenseert dat het gebrek aan apps als YouTube, Maps, Agenda en Googles wachtwoordmanager?
+                - cell "192 reacties" [ref=e669]:
+                  - paragraph [ref=e670]:
+                    - link "192 reacties" [ref=e671] [cursor=pointer]:
+                      - /url: https://tweakers.net/reviews/7786/huawei-p40-pro-een-smartphone-is-meer-dan-een-camera.html#reacties
+                      - text: "192"
+          - navigation "pagination" [ref=e673]:
+            - list [ref=e674]:
+              - listitem [ref=e675]:
+                - generic "Vorige pagina" [ref=e676]:
+                  - generic [ref=e677]: Vorige pagina
+                  - img [ref=e679]
+              - listitem [ref=e681]:
+                - generic [ref=e682] [cursor=pointer]:
+                  - generic [ref=e683]: pagina
+                  - text: "1"
+              - listitem [ref=e684]:
+                - link "pagina 2" [ref=e685] [cursor=pointer]:
+                  - /url: https://tweakers.net/zoeken?currFilters=q1bKTq0szy9KUbJSMjFQyMxLzlAoKVOqBQA&page=2
+                  - generic [ref=e686]: pagina
+                  - text: "2"
+              - listitem [ref=e687]:
+                - generic [ref=e688]: ...
+              - listitem [ref=e689]:
+                - link "pagina 18" [ref=e690] [cursor=pointer]:
+                  - /url: https://tweakers.net/zoeken?currFilters=q1bKTq0szy9KUbJSMjFQyMxLzlAoKVOqBQA&page=18
+                  - generic [ref=e691]: pagina
+                  - text: "18"
+              - listitem [ref=e692]:
+                - link "Volgende pagina" [ref=e693] [cursor=pointer]:
+                  - /url: https://tweakers.net/zoeken?currFilters=q1bKTq0szy9KUbJSMjFQyMxLzlAoKVOqBQA&page=2
+                  - generic [ref=e694]: Volgende pagina
+                  - img [ref=e696]
+  - contentinfo [ref=e698]:
+    - generic [ref=e699]:
+      - generic [ref=e700]:
+        - paragraph [ref=e701]: Tweakers. Dé onafhankelijke techexperts.
+        - link "Exonet logo" [ref=e703] [cursor=pointer]:
+          - /url: https://www.exonet.nl/
+          - img "Exonet logo" [ref=e704]:
+            - img [ref=e705]
+      - navigation "Tweakers" [ref=e707]:
+        - generic [ref=e708]: Tweakers
+        - list [ref=e709]:
+          - listitem [ref=e710]:
+            - link "Adverteren" [ref=e711] [cursor=pointer]:
+              - /url: https://www.dpgmediagroup.com/nl-NL/tweakers?utm_source=Tweakers&utm_medium=magazine&utm_campaign=adverteren&utm_term=footer&utm_content=tekstlink_Tweakers
+          - listitem [ref=e712]:
+            - link "Contact" [ref=e713] [cursor=pointer]:
+              - /url: https://tweakers.net/info/over-tweakers/contact/
+            - text: "-"
+            - link "Over ons" [ref=e714] [cursor=pointer]:
+              - /url: https://tweakers.net/info/over-tweakers/
+          - listitem [ref=e715]:
+            - link "Huisregels" [ref=e716] [cursor=pointer]:
+              - /url: https://tweakers.net/info/algemene-voorwaarden/huisregels/
+          - listitem [ref=e717]:
+            - link "Algemene voorwaarden" [ref=e718] [cursor=pointer]:
+              - /url: https://tweakers.net/info/algemene-voorwaarden/
+          - listitem [ref=e719]:
+            - link "Privacy" [ref=e720] [cursor=pointer]:
+              - /url: https://privacy.dpgmedia.nl/nl/document/privacy-policy
+          - listitem [ref=e721]:
+            - link "Cookies" [ref=e722] [cursor=pointer]:
+              - /url: https://privacy.dpgmedia.nl/nl/document/cookie-policy
+            - text: "-"
+            - link "Voorkeuren" [ref=e723] [cursor=pointer]:
+              - /url: "#"
+      - navigation "Trending" [ref=e724]:
+        - generic [ref=e725]: Trending
+        - list [ref=e726]:
+          - listitem [ref=e727]:
+            - link "Apple MacBook Neo" [ref=e728] [cursor=pointer]:
+              - /url: https://tweakers.net/laptops/apple/macbook-neo_p1853974/vergelijken/
+          - listitem [ref=e729]:
+            - link "Samsung Neo QLED QN8XH" [ref=e730] [cursor=pointer]:
+              - /url: https://tweakers.net/televisies/samsung/neo-qled-qn8xh_p1862008/vergelijken/
+          - listitem [ref=e731]:
+            - link "Xiaomi 17" [ref=e732] [cursor=pointer]:
+              - /url: https://tweakers.net/smartphones/xiaomi/17_p1796768/vergelijken/
+          - listitem [ref=e733]:
+            - link "Samsung Galaxy S26" [ref=e734] [cursor=pointer]:
+              - /url: https://tweakers.net/smartphones/samsung/galaxy-s26_p1848524/vergelijken/
+          - listitem [ref=e735]:
+            - link "007 First Light" [ref=e736] [cursor=pointer]:
+              - /url: https://tweakers.net/games/io-interactive/007-first-light_p1758998/vergelijken/
+          - listitem [ref=e737]:
+            - link "Sony WF-1000XM6" [ref=e738] [cursor=pointer]:
+              - /url: https://tweakers.net/oordopjes/sony/wf-1000xm6_p1845182/vergelijken/
+      - navigation "Social" [ref=e739]:
+        - generic [ref=e740]: Social
+        - list [ref=e741]:
+          - listitem [ref=e742]:
+            - link "BlueSky" [ref=e743] [cursor=pointer]:
+              - /url: https://bsky.app/profile/tweakers.net
+              - img [ref=e745]
+              - text: BlueSky
+          - listitem [ref=e747]:
+            - link "YouTube" [ref=e748] [cursor=pointer]:
+              - /url: https://www.youtube.com/tweakers
+              - img [ref=e750]
+              - text: YouTube
+          - listitem [ref=e752]:
+            - link "Instagram" [ref=e753] [cursor=pointer]:
+              - /url: https://www.instagram.com/tweakersnet/
+              - img [ref=e755]
+              - text: Instagram
+          - listitem [ref=e757]:
+            - link "Rss-feeds" [ref=e758] [cursor=pointer]:
+              - /url: https://tweakers.net/feeds/mixed.xml
+              - img [ref=e760]
+              - text: Rss-feeds
+          - listitem [ref=e762]:
+            - link "Discord" [ref=e763] [cursor=pointer]:
+              - /url: https://discord.gg/tweakers
+              - img [ref=e765]
+              - text: Discord
+      - generic [ref=e767]:
+        - link "Tweakers logo" [ref=e769] [cursor=pointer]:
+          - /url: https://tweakers.net/
+          - img "Tweakers logo" [ref=e770]:
+            - img [ref=e771]
+        - paragraph [ref=e773]:
+          - link "Tweakers" [ref=e774] [cursor=pointer]:
+            - /url: https://tweakers.net/
+          - text: is onderdeel van
+          - link "DPG Media B.V." [ref=e775] [cursor=pointer]:
+            - /url: https://www.dpgmediagroup.com/nl-NL/tweakers
+          - link "Alle rechten voorbehouden - Auteursrecht" [ref=e776] [cursor=pointer]:
+            - /url: https://tweakers.net/info/auteursrecht/
+          - text: © 1998 - 2026

@@ -1,0 +1,43 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - list [ref=e3]:
+      - listitem [ref=e4]:
+        - link "Home" [ref=e5] [cursor=pointer]:
+          - /url: index.html
+      - listitem [ref=e6]:
+        - link "Favourite Routes" [ref=e7] [cursor=pointer]:
+          - /url: routes.html
+      - listitem [ref=e8]:
+        - link "My Most Beautiful Route" [ref=e9] [cursor=pointer]:
+          - /url: most-beautiful.html
+      - listitem [ref=e10]:
+        - link "Bright Angel Trail" [ref=e11] [cursor=pointer]:
+          - /url: route-bright-angel-trail.html
+      - listitem [ref=e12]:
+        - link "About" [ref=e13] [cursor=pointer]:
+          - /url: about.html
+      - listitem [ref=e14]:
+        - link "Contact" [ref=e15] [cursor=pointer]:
+          - /url: contact.html
+  - main [ref=e16]:
+    - heading "Favourite Routes" [level=1] [ref=e17]
+    - generic [ref=e18]:
+      - heading "Yellowstone National Park — Grand Loop Trails" [level=2] [ref=e19]
+      - generic [ref=e20]: Wyoming / Montana / Idaho, USA
+      - paragraph [ref=e21]: This is my favourite park on Earth. Full stop.
+      - paragraph [ref=e22]: Step onto any trail here and the ground itself seems alive. Steam rises from geysers. Bison cross the path without a glance. The colours of the hot springs — deep blues, burning oranges — stop you dead in your tracks.
+      - paragraph [ref=e23]: The Grand Loop trails take you through all of it. Dense pine forest opens suddenly onto sweeping valleys. Every corner reveals something you have never seen before. Yellowstone does not just reward you at the summit. It rewards every single step.
+    - separator [ref=e24]
+    - generic [ref=e25]:
+      - heading "El Capitan — Valley Floor Trail" [level=2] [ref=e26]
+      - generic [ref=e27]: Yosemite National Park, California, USA
+      - paragraph [ref=e28]: Look up. Go on — really look up.
+      - paragraph [ref=e29]: El Capitan rises more than 900 metres straight out of the Yosemite Valley floor. It is one of the most extraordinary sights in the natural world. And you do not need to be a climber to feel it. The valley trail that winds around its base is one of the great walks of my life.
+      - paragraph [ref=e30]: Stand in the meadow opposite. Let the scale of it sink in. The view is excellent — and that is an understatement. This is a place that makes you feel small in the very best way.
+    - separator [ref=e31]
+    - generic [ref=e32]:
+      - heading "Bright Angel Trail" [level=2] [ref=e33]
+      - generic [ref=e34]: Grand Canyon National Park, Arizona, USA
+      - paragraph [ref=e35]: Sun-drenched and unforgettable. The Bright Angel Trail drops you into one of the great natural wonders of the world — layer by layer, colour by colour, all the way to the canyon floor. Warm, open, and alive with light.
+      - link "Read more →" [ref=e36] [cursor=pointer]:
+        - /url: route-bright-angel-trail.html

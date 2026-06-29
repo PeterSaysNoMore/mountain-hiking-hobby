@@ -1,0 +1,11 @@
+[   20521ms] [INFO] AST library loaded: 1.10.99 @ https://adsdk.microsoft.com/ast/ast.js:4
+[   20606ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://bcp.crwdcntrl.net/6/map?xcid=18347:0
+[   20606ms] [ERROR] SYNC.JS: Aborting due to error contacting Lotame's servers. Error reason was ''. @ https://tags.crwdcntrl.net/lt/c/18347/sync.min.js:0
+[   21013ms] [LOG] [AdTech default for n1-home] @ :2
+[   21924ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   22072ms] [WARNING] Origin not specified in model, cannot post loaded message to parent @ https://s0.2mdn.net/sadbundle/5229953098079390891/main.js:0
+[   22160ms] [ERROR] Refused to apply style from 'https://s0.2mdn.net/sadbundle/5229953098079390891/videoInterface.css' because its MIME type ('image/gif') is not a supported stylesheet MIME type, and strict MIME checking is enabled. @ https://s0.2mdn.net/sadbundle/5229953098079390891/index.html?ev=01_262:0
+[   23171ms] Object
+[   63846ms] [INFO] AST library loaded: 1.10.99 @ https://adsdk.microsoft.com/ast/ast.js:4
+[   63963ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://bcp.crwdcntrl.net/6/map?xcid=18347:0
+[   63963ms] [ERROR] SYNC.JS: Aborting due to error contacting Lotame's servers. Error reason was ''. @ https://tags.crwdcntrl.net/lt/c/18347/sync.min.js:0

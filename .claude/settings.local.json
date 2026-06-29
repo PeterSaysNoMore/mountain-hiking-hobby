@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk find *)",
+      "Bash(rtk ls *)",
+      "Bash(open *)",
+      "Bash(node *)",
+      "Bash(rtk read *)"
+    ]
+  }
+}
