@@ -98,17 +98,29 @@
       border: 1px solid #d0cfc8;
       padding: 10px 14px;
       border-radius: 0;
-      outline: none;
       width: 100%;
-      appearance: none;
     }
     input:focus, textarea:focus, select:focus {
       border-color: #3a5a40;
+      outline: 2px solid #3a5a40;
+      outline-offset: 2px;
     }
     textarea {
       min-height: 160px;
       resize: vertical;
       line-height: 1.7;
+    }
+    fieldset {
+      border: none;
+      padding: 0;
+      margin: 0;
+    }
+    fieldset legend {
+      font-family: Arial, sans-serif;
+      font-size: 0.85rem;
+      color: #444;
+      letter-spacing: 0.03em;
+      margin-bottom: 12px;
     }
     .row {
       display: flex;
@@ -130,8 +142,11 @@
       cursor: pointer;
       transition: background 0.2s;
     }
-    button:hover {
+    button:hover,
+    button:focus {
       background-color: #2c4430;
+      outline: 2px solid #3a5a40;
+      outline-offset: 2px;
     }
   </style>
 </head>
@@ -167,20 +182,23 @@
         Location (park, region, country)
         <input type="text" name="location">
       </label>
-      <div class="row">
-        <label>
-          Distance
-          <input type="text" name="distance" placeholder="e.g. 18 km">
-        </label>
-        <label>
-          Elevation change
-          <input type="text" name="elevation" placeholder="e.g. 1 400 m">
-        </label>
-        <label>
-          Duration
-          <input type="text" name="duration" placeholder="e.g. 7–9 hrs">
-        </label>
-      </div>
+      <fieldset>
+        <legend>Trail stats</legend>
+        <div class="row">
+          <label>
+            Distance
+            <input type="text" name="distance" placeholder="e.g. 18 km">
+          </label>
+          <label>
+            Elevation change
+            <input type="text" name="elevation" placeholder="e.g. 1 400 m">
+          </label>
+          <label>
+            Duration
+            <input type="text" name="duration" placeholder="e.g. 7–9 hrs">
+          </label>
+        </div>
+      </fieldset>
       <label>
         Difficulty
         <select name="difficulty">
