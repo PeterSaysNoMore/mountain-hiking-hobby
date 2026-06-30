@@ -136,6 +136,26 @@
       border-color: #2c4430;
       color: #fff;
     }
+    .rank-header {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+    .rank-header h2 {
+      margin-bottom: 0;
+    }
+    .rank-number {
+      font-family: Arial, sans-serif;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #3a5a40;
+      flex-shrink: 0;
+    }
+    .route[data-rank="1"] .rank-number {
+      font-size: 1.6rem;
+      color: #e07b00;
+    }
   </style>
 </head>
 <body>
@@ -168,8 +188,11 @@
     </div>
     <p class="no-results" hidden>No routes match this difficulty. Try a different filter.</p>
 
-    <div class="route" data-difficulty="moderate">
-      <h2>Yellowstone National Park — Grand Loop Trails</h2>
+    <div class="route" data-difficulty="moderate" data-rank="1">
+      <div class="rank-header">
+        <span class="rank-number">#1</span>
+        <h2>Yellowstone National Park — Grand Loop Trails</h2>
+      </div>
       <div class="meta">Wyoming / Montana / Idaho, USA</div>
       <span class="listing-badge">Moderate</span>
       <p>
@@ -186,8 +209,11 @@
 
     <hr class="divider">
 
-    <div class="route" data-difficulty="easy">
-      <h2>El Capitan — Valley Floor Trail</h2>
+    <div class="route" data-difficulty="easy" data-rank="2">
+      <div class="rank-header">
+        <span class="rank-number">#2</span>
+        <h2>El Capitan — Valley Floor Trail</h2>
+      </div>
       <div class="meta">Yosemite National Park, California, USA</div>
       <span class="listing-badge">Easy</span>
       <p>
@@ -204,8 +230,11 @@
 
     <hr class="divider">
 
-    <div class="route" data-difficulty="moderate">
-      <h2>Bright Angel Trail</h2>
+    <div class="route" data-difficulty="moderate" data-rank="3">
+      <div class="rank-header">
+        <span class="rank-number">#3</span>
+        <h2>Bright Angel Trail</h2>
+      </div>
       <div class="meta">Grand Canyon National Park, Arizona, USA</div>
       <span class="listing-badge">Moderate</span>
       <p>
