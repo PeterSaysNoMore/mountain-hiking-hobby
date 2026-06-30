@@ -7,5 +7,15 @@
       "Bash(node *)",
       "Bash(rtk read *)"
     ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks":[{ 
+          "type": "command", "command": "_node --test_","statusMessage": "Running tests ..."
+        }]
+      }
+    ]
   }
 }
