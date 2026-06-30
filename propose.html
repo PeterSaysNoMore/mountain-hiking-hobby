@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact – My mountain-hiking hobby</title>
+  <title>Propose a Route – My mountain-hiking hobby</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -90,7 +90,7 @@
       flex-direction: column;
       gap: 6px;
     }
-    input, textarea {
+    input, textarea, select {
       font-family: Georgia, serif;
       font-size: 1rem;
       color: #2c2c2c;
@@ -100,14 +100,22 @@
       border-radius: 0;
       outline: none;
       width: 100%;
+      appearance: none;
     }
-    input:focus, textarea:focus {
+    input:focus, textarea:focus, select:focus {
       border-color: #3a5a40;
     }
     textarea {
       min-height: 160px;
       resize: vertical;
       line-height: 1.7;
+    }
+    .row {
+      display: flex;
+      gap: 20px;
+    }
+    .row label {
+      flex: 1;
     }
     button {
       align-self: flex-start;
@@ -141,16 +149,52 @@
       </li>
       <li><a href="most-beautiful.html">My Most Beautiful Route</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="contact.html" class="active">Contact</a></li>
-      <li><a href="propose.html">Propose a Route</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="propose.html" class="active">Propose a Route</a></li>
     </ul>
   </nav>
   <main>
-    <h1>Get in touch</h1>
+    <h1>Propose a Route</h1>
     <p>
-      Been on one of these trails? Found a better line? Just want to talk mountains? I am all ears. Drop me a message.
+      Know a trail that belongs on this list? Tell me. If it stopped you in your tracks, I want to hear about it. Fill in the details below and send it my way.
     </p>
     <form action="mailto:contact@test-pro.nl" method="post" enctype="text/plain">
+      <label>
+        Route name
+        <input type="text" name="route_name">
+      </label>
+      <label>
+        Location (park, region, country)
+        <input type="text" name="location">
+      </label>
+      <div class="row">
+        <label>
+          Distance
+          <input type="text" name="distance" placeholder="e.g. 18 km">
+        </label>
+        <label>
+          Elevation change
+          <input type="text" name="elevation" placeholder="e.g. 1 400 m">
+        </label>
+        <label>
+          Duration
+          <input type="text" name="duration" placeholder="e.g. 7–9 hrs">
+        </label>
+      </div>
+      <label>
+        Difficulty
+        <select name="difficulty">
+          <option value="">— pick one —</option>
+          <option value="Easy">Easy</option>
+          <option value="Moderate">Moderate</option>
+          <option value="Hard">Hard</option>
+          <option value="Expert">Expert</option>
+        </select>
+      </label>
+      <label>
+        Why this trail? What makes it unmissable?
+        <textarea name="why"></textarea>
+      </label>
       <label>
         Your name
         <input type="text" name="name" autocomplete="name">
@@ -159,11 +203,7 @@
         Your email
         <input type="email" name="email" autocomplete="email">
       </label>
-      <label>
-        Message
-        <textarea name="message"></textarea>
-      </label>
-      <button type="submit">Send it</button>
+      <button type="submit">Send the proposal</button>
     </form>
   </main>
 </body>
