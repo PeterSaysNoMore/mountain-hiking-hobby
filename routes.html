@@ -100,6 +100,42 @@
       text-decoration: none;
       font-weight: bold;
     }
+    .listing-badge {
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      font-size: 0.8rem;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 14px;
+      background-color: #3a5a40;
+      color: #fff;
+    }
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 36px;
+    }
+    .filter-btn {
+      font-family: Arial, sans-serif;
+      font-size: 0.85rem;
+      font-weight: bold;
+      letter-spacing: 0.03em;
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 2px solid #3a5a40;
+      background-color: #fff;
+      color: #3a5a40;
+      cursor: pointer;
+    }
+    .filter-btn[aria-pressed="true"] {
+      background-color: #2c4430;
+      border-color: #2c4430;
+      color: #fff;
+    }
   </style>
 </head>
 <body>
@@ -123,9 +159,19 @@
   <main>
     <h1>Favourite Routes</h1>
 
-    <div class="route">
+    <div class="filter-bar" role="group" aria-label="Filter by difficulty">
+      <button class="filter-btn" data-filter="all" aria-pressed="true">All</button>
+      <button class="filter-btn" data-filter="easy" aria-pressed="false">Easy</button>
+      <button class="filter-btn" data-filter="moderate" aria-pressed="false">Moderate</button>
+      <button class="filter-btn" data-filter="hard" aria-pressed="false">Hard</button>
+      <button class="filter-btn" data-filter="expert" aria-pressed="false">Expert</button>
+    </div>
+    <p class="no-results" hidden>No routes match this difficulty. Try a different filter.</p>
+
+    <div class="route" data-difficulty="moderate">
       <h2>Yellowstone National Park — Grand Loop Trails</h2>
       <div class="meta">Wyoming / Montana / Idaho, USA</div>
+      <span class="listing-badge">Moderate</span>
       <p>
         This is my favourite park on Earth. Full stop.
       </p>
@@ -140,9 +186,10 @@
 
     <hr class="divider">
 
-    <div class="route">
+    <div class="route" data-difficulty="easy">
       <h2>El Capitan — Valley Floor Trail</h2>
       <div class="meta">Yosemite National Park, California, USA</div>
+      <span class="listing-badge">Easy</span>
       <p>
         Look up. Go on — really look up.
       </p>
@@ -157,9 +204,10 @@
 
     <hr class="divider">
 
-    <div class="route">
+    <div class="route" data-difficulty="moderate">
       <h2>Bright Angel Trail</h2>
       <div class="meta">Grand Canyon National Park, Arizona, USA</div>
+      <span class="listing-badge">Moderate</span>
       <p>
         Sun-drenched and unforgettable. The Bright Angel Trail drops you into one of the great natural wonders of the world — layer by layer, colour by colour, all the way to the canyon floor. Warm, open, and alive with light.
       </p>
@@ -167,5 +215,25 @@
     </div>
 
   </main>
+  <script>
+    const buttons = document.querySelectorAll('.filter-btn');
+    const routes = document.querySelectorAll('.route');
+    const noResults = document.querySelector('.no-results');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.setAttribute('aria-pressed', 'false'));
+        btn.setAttribute('aria-pressed', 'true');
+        const filter = btn.dataset.filter;
+        let visible = 0;
+        routes.forEach(route => {
+          const match = filter === 'all' || route.dataset.difficulty === filter;
+          route.hidden = !match;
+          if (match) visible++;
+        });
+        noResults.hidden = visible > 0;
+      });
+    });
+  </script>
 </body>
 </html>
