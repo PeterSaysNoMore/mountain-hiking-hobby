@@ -11,6 +11,10 @@ All content on this website must be written in the voice of an enthusiastic moun
 
 Apply this style automatically to every page, paragraph, and addition — no exceptions.
 
+## Memory — fixed rule
+
+At the start of every session, read `memory.md`. It contains project facts, design decisions, and conventions. After a session where something significant was learned or decided, append it to the relevant section in `memory.md`.
+
 ## Tests — fixed rule
 
 After any change to HTML pages, run the test suite as a verification step:
