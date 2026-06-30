@@ -34,9 +34,18 @@ assert.match(html, /href=["']about\.html["']/, 'Nav must link to about.html');
 // 6. One H1
 assert.match(html, /<h1[^>]*>[\s\S]*?<\/h1>/, 'Missing <h1>');
 
-// 7. A contact form or email address present
-const hasForm = /<form[\s>]/.test(html);
-const hasEmail = /mailto:|@/.test(html);
-assert.ok(hasForm || hasEmail, 'Page must have a contact form or an email address');
+// 7. A contact form present
+assert.match(html, /<form[\s>]/, 'Page must have a contact form');
+
+// 8. Form must not use mailto:
+assert.doesNotMatch(html, /action=["'][^"']*mailto:/i, 'Form action must not use mailto:');
+
+// 9. Form must not have enctype attribute
+assert.doesNotMatch(html, /enctype=/i, 'Form must not have enctype attribute');
+
+// 10. All three fields must have required attribute
+assert.match(html, /<input[^>]+name="name"[^>]*required/i, 'Name field must have required attribute');
+assert.match(html, /<input[^>]+name="email"[^>]*required/i, 'Email field must have required attribute');
+assert.match(html, /<textarea[^>]+name="message"[^>]*required/i, 'Message field must have required attribute');
 
 console.log('All assertions passed — contact.html is present and well-formed.');
