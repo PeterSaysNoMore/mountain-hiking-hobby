@@ -46,8 +46,25 @@ node tests/about-page.test.mjs && node tests/contact-page.test.mjs && node tests
 
 Pre-commit hook runs all three automatically (`.githooks/pre-commit`, active via `core.hooksPath`).
 
+## OpenSpec
+
+- Installed: `@fission-ai/openspec@latest` (global npm)
+- Root: `openspec/` inside the site repo
+- Specs live at `openspec/specs/<capability>/spec.md`
+- Changes archived to `openspec/changes/archive/YYYY-MM-DD-<name>/`
+- Workflow: `/opsx:explore` → `/opsx:propose` (implicit via explore) → `/opsx:apply` → `/opsx:archive`
+- Completed change: `route-ranking` (archived 2026-06-30)
+
+## Routes ranking
+
+- Yellowstone → #1 (Canyon Amber rank number)
+- El Capitan → #2 (Trail Pine rank number)
+- Bright Angel Trail → #3 (Trail Pine rank number)
+- Rank number sits left of h2 in `.rank-header` flex row
+
 ## Decisions
 
 - Listing badges use Trail Pine (not Canyon Amber) — Canyon Amber reserved for detail pages
 - Filter uses `hidden` attribute, not `display:none` — screen readers respect it
 - Filter JS is inline `<script>` on `routes.html` only — no JS on other pages
+- Canyon Amber on `routes.html` = #1 rank number (satisfies one-per-page rule)
